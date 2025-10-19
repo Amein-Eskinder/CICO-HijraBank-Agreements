@@ -11,8 +11,6 @@
 - [Agreement Files](#agreement-files)
 - [Agreement Relationships](#agreement-relationships)
 - [Version History](#version-history)
-- [How to Report Issues](#how-to-report-issues)
-- [Contact Information](#contact-information)
 
 ---
 
@@ -23,7 +21,7 @@ This repository contains legally binding agreements between Hijra Bank S.C. (Eth
 **Key Partnerships:**
 - **CICO Financial Technologies** - Digital Wallet Platform Provider (SaaS)
 - **Hawilpay Inc.** - International Remittance Platform Partner
-- **Consortium Partners** - [If applicable]
+- **Consortium Partners** - CICO & HijraBank
 
 ---
 
@@ -31,9 +29,9 @@ This repository contains legally binding agreements between Hijra Bank S.C. (Eth
 
 ### 1. **CICO HijraBank SLA.md**
 **Full Title:** Software Utilization Support & Maintenance License Agreement  
-**Parties:** CICO Financial Technologies LLC ↔ Hijra Bank S.C.  
+**Parties:** CICO Financial Technologies PLC ↔ Hijra Bank S.C.  
 **Date:** September 20, 2025  
-**Status:** ✅ Active
+**Status:** Active
 
 **Summary:**  
 SaaS license agreement for CICO's multi-currency digital wallet and operator management platform, co-branded as "CICO - HijraBank". Includes hosting, support, maintenance, and revenue sharing (50/10/40 model).
@@ -59,7 +57,7 @@ SaaS license agreement for CICO's multi-currency digital wallet and operator man
 **Full Title:** Remittance Platform and Services Agreement  
 **Parties:** Hawilpay Inc. (USA) ↔ Hijra Bank S.C. (Ethiopia)  
 **Date:** September 20, 2025  
-**Status:** ✅ Active
+**Status:** Active
 
 **Summary:**  
 Partnership agreement for international remittance services (USA → Ethiopia corridor). Hijra Bank serves as non-exclusive payout partner for Hawilpay platform, with integration to CICO - HijraBank digital wallet for wallet-based payouts.
@@ -83,9 +81,9 @@ Partnership agreement for international remittance services (USA → Ethiopia co
 
 ### 3. **CICO SaaS License Pricing.md**
 **Full Title:** CICO Digital Wallet & Operator Management Platform - Pricing Schedule  
-**Parties:** CICO Financial Technologies LLC ↔ Hijra Bank S.C.  
+**Parties:** CICO Financial Technologies PLC ↔ Hijra Bank S.C.  
 **Date:** September 20, 2025  
-**Status:** ✅ Active (Annex to CICO SLA)
+**Status:** Active (Annex to CICO SLA)
 
 **Summary:**  
 Detailed pricing structure for CICO platform services. Defines one-time fees, monthly managed fees, revenue sharing model, pass-through costs, and included services.
@@ -107,13 +105,30 @@ Detailed pricing structure for CICO platform services. Defines one-time fees, mo
 ---
 
 ### 4. **Consortium Partnership Agreement.md**
-**Full Title:** [To be determined]  
-**Parties:** [To be determined]  
-**Date:** [To be determined]  
-**Status:** 📝 Draft / ⏳ Pending
+**Full Title:** Consortium Partnership Agreement  
+**Parties:** CICO Financial Technologies PLC ↔ Hijra Bank S.C.  
+**Date:** July 20, 2025  
+**Status:** Active
 
 **Summary:**  
-[Placeholder for consortium partnership details]
+Consortium framework agreement establishing CICO as lead implementer and Hijra Bank as banking partner for joint RFQ/RFP/TOR responses and project execution. Defines roles, profit sharing (50/50 during implementation), fund flow, and governance for consortium projects.
+
+**Key Terms:**
+- CICO Role: Lead implementer, consortium manager, technical provider
+- Bank Role: Regulated banking partner, regulatory approvals, infrastructure
+- Profit Sharing: 50% CICO, 50% Bank (implementation phase only)
+- Fund Flow: Revenues to Bank account → Bank transfers to CICO operating account
+- Post-Project: No revenue sharing; continued IP use requires separate agreement
+- Background IP: Utilizes pre-existing platforms (HalalPay, Soukify, etc.)
+
+**Key Sections:**
+- Section 2: Roles and responsibilities (CICO leads, Bank provides banking services)
+- Section 3.2: 50/50 profit split during implementation
+- Section 3.3: Fund flow (Bank receives, approves transfers to CICO)
+- Section 3.4: No post-implementation revenue sharing
+- Section 5: Consortium Steering Committee governance
+- Section 8: Confidentiality and intellectual property
+- Section 9: Dispute resolution (mediation then arbitration)
 
 ---
 
@@ -162,10 +177,10 @@ Detailed pricing structure for CICO platform services. Defines one-time fees, mo
 
 | **Agreement** | **Version** | **Date** | **Status** |
 |--------------|-------------|----------|-----------|
+| Consortium Agreement | 1.0 | July 20, 2025 | Active |
 | CICO HijraBank SLA | 1.0 | Sept 20, 2025 | Active |
 | Hawilpay HijraBank RSA | 1.0 | Sept 20, 2025 | Active |
 | CICO SaaS Pricing | 1.0 | Sept 20, 2025 | Active |
-| Consortium Agreement | Draft | TBD | Pending |
 
 ### Recent Updates (October 19, 2025)
 
