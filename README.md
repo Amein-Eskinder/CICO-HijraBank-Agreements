@@ -138,7 +138,7 @@ Consortium framework agreement establishing CICO as lead implementer and Hijra B
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    HIJRA BANK S.C.                      │
-│                  (Licensed Bank - Ethiopia)              │
+│                 (Licensed Bank - Ethiopia)              │
 └─────────────────┬─────────────────┬─────────────────────┘
                   │                 │
         ┌─────────▼─────────┐   ┌──▼──────────────────┐
