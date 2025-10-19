@@ -54,7 +54,7 @@
 
 * **Reporting & Governance:** KPI dashboards, monthly service review, quarterly roadmap, **quarterly marketing plans** (campaigns, budgets, calendar for Bank approval), monthly marketing performance reports.
 
-  ## **5\) Revenue Share & Pass‑Through**
+## **5\) Revenue Share & Pass‑Through**
 
 **Revenue Sharing on Net Chargeable Transaction Fees:**
 
