@@ -1,7 +1,7 @@
 # Agreement Documents Repository
 
 **Repository for Hijra Bank partnership and service agreements**  
-**Last Updated:** October 19, 2025
+**Last Updated:** October 20, 2025
 
 ---
 
@@ -19,7 +19,7 @@
 This repository contains legally binding agreements between Hijra Bank S.C. (Ethiopia) and various technology and service providers. These agreements form an integrated ecosystem for digital wallet services, remittance processing, and financial technology operations.
 
 **Key Partnerships:**
-- **CICO Financial Technologies** - Digital Wallet Platform Provider (SaaS)
+- **CICO Financial Technologies** - CICO CASH Digital Wallet Platform Provider (SaaS)
 - **Hawilpay Inc.** - International Remittance Platform Partner
 - **Consortium Partners** - CICO & HijraBank
 
@@ -34,7 +34,7 @@ This repository contains legally binding agreements between Hijra Bank S.C. (Eth
 **Status:** Active
 
 **Summary:**  
-SaaS license agreement for CICO's multi-currency digital wallet and operator management platform, co-branded as "CICO - HijraBank". Includes hosting, support, maintenance, and revenue sharing (50/10/40 model).
+SaaS license agreement for CICO's multi-currency digital wallet and operator management platform under the brand name "CICO CASH" with Hijra Bank as co-brand partner. Includes hosting, support, maintenance, and revenue sharing (50/10/40 model).
 
 **Key Terms:**
 - Platform: Digital wallet, operator management, multi-channel access
@@ -45,7 +45,7 @@ SaaS license agreement for CICO's multi-currency digital wallet and operator man
 
 **Key Sections:**
 - Section 2.2: System functionality (multi-currency wallet)
-- Section 2.8: Co-branding as "CICO - HijraBank"
+- Section 2.8: Co-branding as "CICO CASH" (primary brand) with Hijra Bank co-brand
 - Section 3.1: Hybrid fee model (AMS + Revenue Share)
 - Section 7.7: Data residency (Ethiopia only)
 - Annex F: Detailed pricing tiers
@@ -60,17 +60,17 @@ SaaS license agreement for CICO's multi-currency digital wallet and operator man
 **Status:** Active
 
 **Summary:**  
-Partnership agreement for international remittance services (USA → Ethiopia corridor). Hijra Bank serves as non-exclusive payout partner for Hawilpay platform, with integration to CICO - HijraBank digital wallet for wallet-based payouts.
+Partnership agreement for international remittance services (USA → Ethiopia corridor). Hijra Bank serves as non-exclusive payout partner for Hawilpay platform, with integration to CICO CASH Digital Wallet for wallet-based payouts.
 
 **Key Terms:**
 - Bank Obligations: 30% interest-free loan, 0% transaction fees, marketing costs
-- Payout Methods: Cash pickup, bank account, CICO wallet (USD or ETB)
+- Payout Methods: Cash pickup, bank account, CICO CASH wallet (USD or ETB)
 - FX Control: Bank sets all exchange rates, keeps 100% of FX spread
 - Settlement: T+2 (48 hours) in USD
 - Term: 5 years from Go-Live, auto-renew for 1-year terms (90 days notice required)
 
 **Key Sections:**
-- Section 2.7: CICO - HijraBank wallet integration (multi-currency)
+- Section 2.7: CICO CASH Digital Wallet integration (multi-currency)
 - Section 3: Financial covenants (loans, fees, marketing)
 - Section 27: FX pricing authority and transparency
 - Section 27.3: Multi-bank competitive model (non-exclusive)
@@ -79,7 +79,7 @@ Partnership agreement for international remittance services (USA → Ethiopia co
 ---
 
 ### 3. **CICO SaaS License Pricing.md**
-**Full Title:** CICO Digital Wallet & Operator Management Platform - Pricing Schedule  
+**Full Title:** CICO CASH Digital Wallet & Operator Management Platform - Pricing Schedule  
 **Parties:** CICO Financial Technologies PLC ↔ Hijra Bank S.C.  
 **Date:** September 20, 2025  
 **Status:** Active (Annex to CICO SLA)
@@ -118,7 +118,7 @@ Consortium framework agreement establishing CICO as lead implementer and Hijra B
 - Profit Sharing: 50% CICO, 50% Bank (implementation phase only)
 - Fund Flow: Revenues to Bank account → Bank transfers to CICO operating account
 - Post-Project: No revenue sharing; continued IP use requires separate agreement
-- Background IP: Utilizes pre-existing platforms (HalalPay, Soukify, etc.)
+- Background IP: Utilizes pre-existing platforms (CICO CASH, HalalPay, Soukify)
 
 **Key Sections:**
 - Section 2: Roles and responsibilities (CICO leads, Bank provides banking services)
@@ -151,7 +151,7 @@ Consortium framework agreement establishing CICO as lead implementer and Hijra B
                   │ Both Agreements │
                   │                 │
         ┌─────────▼─────────────────▼─────────────────┐
-        │   CICO - HijraBank Digital Wallet           │
+        │   CICO CASH Digital Wallet                  │
         │   • Multi-currency (USD, ETB)               │
         │   • Receives Hawilpay remittance payouts    │
         │   • Bank controls FX rates (100% spread)    │
@@ -162,7 +162,7 @@ Consortium framework agreement establishing CICO as lead implementer and Hijra B
 
 | **Provision** | **CICO SLA** | **Hawilpay RSA** | **Alignment** |
 |---------------|--------------|------------------|---------------|
-| **Co-Branding** | Section 2.8: "CICO - HijraBank" | Section 2.7(a): References CICO SLA | ✅ Consistent |
+| **Co-Branding** | Section 2.8: "CICO CASH" primary brand | Section 2.7(a): References CICO SLA | ✅ Consistent |
 | **FX Control** | Bank has pricing authority | Section 27.1: Bank sets all FX rates | ✅ Consistent |
 | **FX Revenue** | FX spread NOT in revenue share | Section 27.1(c): Bank keeps 100% | ✅ Aligned |
 | **Wallet Integration** | Section 2.2: Remittance partners | Section 2.7: CICO wallet payouts | ✅ Linked |
@@ -181,14 +181,36 @@ Consortium framework agreement establishing CICO as lead implementer and Hijra B
 | Hawilpay HijraBank RSA | 1.0 | Sept 20, 2025 | Active |
 | CICO SaaS Pricing | 1.0 | Sept 20, 2025 | Active |
 
-### Recent Updates (October 19, 2025)
+### Recent Updates
 
-#### CICO SLA:
-- ✅ Added Section 2.8: Co-branding provisions ("CICO - HijraBank")
+#### October 20, 2025 - Brand Consistency Update:
+**All Agreements:**
+- ✅ Updated product branding to "CICO CASH" across all documents
+- ✅ CICO SLA: Changed brand name from "CICO" to "CICO CASH" (Section 2.8)
+- ✅ Hawilpay RSA: Updated all references to "CICO CASH Digital Wallet"
+- ✅ Consortium Agreement: Added "CICO CASH" to Background IP (Section 7.2.1)
+- ✅ Pricing Document: Updated title and product description to "CICO CASH"
+- ✅ README: Updated all brand references for consistency
+
+**Termination Provisions:**
+- ✅ CICO SLA: Added Section 15.4 (Pre-Go-Live termination fee: ETB 500,000)
+- ✅ CICO SLA: Added Section 15.3 (Mutual termination after 24 months)
+- ✅ Hawilpay RSA: Added Section 16.3 (Pre-Go-Live termination fee: $5,000 USD)
+- ✅ Hawilpay RSA: Added Section 16.4 (Mutual termination after 24 months)
+
+**CICO Integration Benefits:**
+- ✅ Hawilpay RSA: Added Section 2.7(i) - CICO Integration Benefits Framework
+- ✅ Confirmed 50/10/40 revenue share on wallet transaction fees
+- ✅ Added quarterly reporting requirements for wallet performance
+- ✅ Added semi-annual strategic alignment meetings
+
+#### October 19, 2025 - Initial Integration:
+**CICO SLA:**
+- ✅ Added Section 2.8: Co-branding provisions
 - ✅ Added Hawilpay integration reference in Section 2.2
 
-#### Hawilpay RSA:
-- ✅ Added Section 2.7: CICO - HijraBank wallet integration
+**Hawilpay RSA:**
+- ✅ Added Section 2.7: Digital wallet integration
 - ✅ Enhanced Section 27.1: FX control and CICO SLA consistency
 - ✅ Updated "Payout Location" definition to include wallet credits
 - ✅ Added Section 27.3: Multi-bank competitive model (non-exclusive)
