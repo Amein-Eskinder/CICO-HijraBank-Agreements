@@ -141,14 +141,14 @@ Consortium framework agreement establishing CICO as lead implementer and Hijra B
 │                 (Licensed Bank - Ethiopia)              │
 └─────────────────┬─────────────────┬─────────────────────┘
                   │                 │
-        ┌─────────▼─────────┐   ┌──▼──────────────────┐
-        │   CICO SLA        │   │  Hawilpay RSA       │
-        │   (Platform)      │   │  (Remittances)      │
-        └─────────┬─────────┘   └──┬──────────────────┘
+        ┌─────────▼─────────┐    ┌──▼──────────────────┐
+        │   CICO SLA        │    │  Hawilpay RSA       │
+        │   (Platform)      │    │  (Remittances)      │
+        └─────────┬─────────┘    └──┬──────────────────┘
                   │                 │
-                  │    Integration  │
-                  │   Referenced in │
-                  │   Both Agreements│
+                  │   Integration   │
+                  │  Referenced in  │
+                  │ Both Agreements │
                   │                 │
         ┌─────────▼─────────────────▼─────────────────┐
         │   CICO - HijraBank Digital Wallet           │
