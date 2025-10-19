@@ -17,6 +17,32 @@ Consortium Partnership Agreement (the **“Agreement”**) is made and entered i
    
 **NOW, THEREFORE**, in consideration of the mutual covenants and obligations herein, the Parties hereby agree as follows: 
 
+### **0. Definitions**
+
+In this Agreement, unless the context otherwise requires:
+
+(a) **"Background IP"** means intellectual property, systems, software, platforms, methodologies, tools, and materials owned or controlled by either Party prior to the Effective Date or developed independently outside the scope of consortium projects.
+
+(b) **"Consortium Project"** means any Request for Quotation (RFQ), Request for Proposal (RFP), or Terms of Reference (TOR) initiative jointly pursued, proposed, or implemented by the Parties under this Agreement.
+
+(c) **"Implementation Period"** means the duration between project commencement and project completion as defined in each project-specific annex, during which the Parties actively deploy resources, execute deliverables, and share profits as set forth in Section 3.2.
+
+(d) **"Net Profits"** means Gross revenues received during the Implementation Period minus Direct implementation costs, Operator/field incentives, and Regulatory fees, as detailed in Section 3.2.2.
+
+(e) **"Effective Date"** means July 20, 2025, the date on which this Agreement comes into force.
+
+(f) **"Party"** means either CICO Financial Technologies or Hijra Bank S.C. individually, and **"Parties"** means both collectively.
+
+(g) **"Misappropriation of Funds"** means the unauthorized, fraudulent, or improper use of consortium project funds for purposes other than those specified in the approved project budget and annexes. This includes, without limitation: (i) using project funds for personal benefit or non-project purposes; (ii) diverting funds to unauthorized third parties.
+
+(h) **"Business Day"** means a day other than a Saturday, Sunday, or public holiday in Addis Ababa, Ethiopia.
+
+(i) **"Confidential Information"** means non-public information disclosed by a Party, whether oral, written, or electronic, including business plans, financials, customer or user data, and security materials.
+
+(j) **"Project Data"** means data generated or processed in the performance of a Consortium Project, including operational metrics, transaction metadata, logs, and reports (excluding each Party's Background IP and Confidential Information).
+
+(k) **"Direct Implementation Costs"** means costs directly attributable and exclusively incurred for the specific project delivery, including: (i) technology deployment and infrastructure costs for the project; (ii) salaries and benefits of personnel assigned full-time or part-time to the project (calculated on a pro-rata basis); (iii) payments to third-party vendors and subcontractors engaged specifically for the project; (iv) equipment, hardware, and software purchased or leased specifically for the project; and (v) travel and accommodation expenses directly related to project implementation. Direct Implementation Costs shall NOT include: general overhead, corporate administrative expenses, pre-existing infrastructure costs, regulatory compliance costs unrelated to the specific project deliverables, or any costs that would be incurred regardless of the project.
+
 ### **1\. Purpose and Scope**
 
 1.1. The purpose of this Agreement is to establish the framework for collaboration between the Parties in identifying, preparing, submitting, and executing projects under RFQs, RFPs, or TORs issued by third parties. This Agreement governs how the Parties will cooperate in project implementation, resource allocation, financial arrangements, and benefit-sharing.  
@@ -90,7 +116,7 @@ Consortium Partnership Agreement (the **“Agreement”**) is made and entered i
 
    
 4.1. **Independent External Audits:** Either Party shall have the right, upon thirty (30) days' prior written notice and not more than once per calendar year, to appoint an independent external auditor to inspect the books and records related to any project under this Agreement.   
-4.2. **Financial Reporting and Internal Audits:** Quarterly financial reports shall be circulated to both Parties. In addition, Hijra Bank's internal audit department may conduct internal audit reviews up to three times per year, which are separate from and in addition to the independent external audits referenced in Section 4.1.  
+4.2. **Financial Reporting and Internal Audits:** Quarterly financial reports shall be circulated to both Parties. In addition, each Party's internal audit or finance department may conduct internal audit reviews up to one time per year, which are separate from and in addition to the independent external audits referenced in Section 4.1. For clarity, Hijra Bank may conduct one (1) internal audit per year of project finances and implementation expenditures, and CICO may conduct one (1) internal audit per year of project revenue collection and fund management.  
 4.3. The costs of such audit shall be borne by the auditing Party, unless the audit reveals a material variance of more than five percent (5%) to its detriment, in which case the costs shall be shared by the other Party. 
 
 ### **5\. Governance and Decision-Making**
@@ -100,7 +126,7 @@ Consortium Partnership Agreement (the **“Agreement”**) is made and entered i
    
 5.1.1. A Steering Committee shall be formed with equal representation from both Parties.  
 
-5.1.2. The Bank's representative in the Steering Committee shall have the authority to make final decisions on matters that are strictly related to the Bank's regulatory compliance and financial standing, provided that such decisions are made in writing and with justifiable reasons.   
+5.1.2. The Bank's representative in the Steering Committee shall have the authority to make final decisions on matters that are strictly and directly related to the Bank's regulatory license requirements under National Bank of Ethiopia regulations, capital adequacy requirements, or Anti-Money Laundering/Combating the Financing of Terrorism (AML/CFT) obligations, provided that such decisions are made in writing and with justifiable reasons citing the specific regulatory requirement. For clarity, regulatory compliance shall not be invoked to override CICO's operational decisions on technical implementation, vendor selection, pricing, platform deployment, or project execution matters. Similarly, CICO's representative in the Steering Committee shall have the authority to make final decisions on matters that are strictly related to project operations, technical implementation, platform deployment, vendor selection, staffing decisions, and day-to-day execution, provided that such decisions are made in writing and with justifiable reasons.   
 5.1.3. All material decisions concerning the consortium and individual projects shall be made by the Steering Committee. The Steering Committee shall strive to make decisions by consensus. If consensus cannot be reached after good faith discussions, the matter shall be referred to the Chief Executive Officer of CICO and the Chief Executive Officer of Hijra Bank for resolution. If both CEOs cannot reach consensus within fifteen (15) business days, the matter shall either (i) be resolved through the dispute resolution mechanism in Section 11, or (ii) the specific project or decision in question shall not proceed without mutual written agreement.   
 5.1.4. Functions of the committee: Approve proposals, budgets, project plans, and major decisions.   
    
@@ -110,7 +136,9 @@ Consortium Partnership Agreement (the **“Agreement”**) is made and entered i
 
 5.2.2. Hijra Bank will appoint a **Bank Liaison Officer** responsible for regulatory and institutional matters.  
 
-5.2.3. The Bank shall participate in all discussions and decisions. For matters related to the Bank's regulatory compliance and financial standing as specified in Section 5.1.2, the final decision authority rests with the Bank's Director/CEO based on the mandates provided to them.
+5.2.3. The Bank shall participate in all discussions and decisions. For matters related to the Bank's regulatory compliance and financial standing as specified in Section 5.1.2, the final decision authority rests with the Bank's VP/CEO based on the mandates provided to them.
+
+5.2.4. Similarly, CICO shall participate in all discussions and decisions. For matters related to project operations, technical implementation, platform deployment, vendor selection, staffing decisions, and day-to-day execution as the lead implementer, the final decision authority rests with CICO's Chief Executive Officer, provided that such decisions are made in writing and with justifiable reasons. This authority ensures CICO can effectively manage operations, maintain implementation quality, and fulfill its responsibilities as consortium manager.
 
 ### **6\. Project Lifecycle and Deliverables**
 
@@ -123,7 +151,8 @@ Consortium Partnership Agreement (the **“Agreement”**) is made and entered i
 **6.2. Implementation Stage**  
    
 6.2.1. CICO leads execution, technology deployment, operator onboarding.  
-6.2.2. Hijra Bank provides access to its systems, branches, and operator networks.
+6.2.2. Hijra Bank provides access to its systems, branches, and operator networks.  
+6.2.3. Hijra Bank shall provide the financial resources requested by CICO for project implementation in accordance with the fund flow process set forth in Section 3.3.1, whereby CICO submits budget requests and the Bank approves and transfers the requested funds to CICO's project operating account within five (5) business days.
 
 **6.3. Monitoring and Evaluation**
 
@@ -200,9 +229,11 @@ Upon completion or termination of any consortium project:
 
 7.6.3. Neither Party shall reverse-engineer, decompile, disassemble, or attempt to derive the source code or underlying methodology of the other Party's Background IP.
 
+7.6.4. **Non-Compete and IP Protection:** During the term of this Agreement and for a period of three (3) years following termination, Hijra Bank shall not: (a) develop, deploy, or commercialize digital wallet platforms, financial technology systems, or operator management platforms that replicate or substantially compete with CICO's Soukify platform or other Background IP; (b) engage third-party vendors to build competing systems using knowledge, methodologies, or technical specifications learned through this consortium; (c) hire or solicit for employment any of CICO's key technical personnel who worked on consortium projects; or (d) use knowledge gained from CICO's Background IP to independently develop or commission competing solutions. This restriction shall not prevent the Bank from using commercially available off-the-shelf software or engaging CICO's competitors for unrelated services.
+
 **7.7. Use of Pre-Existing IP for Consortium Projects**
 
-7.7.1. The Parties acknowledge and agree that all consortium projects under this Agreement shall be implemented using the Parties' pre-existing Background IP (primarily Hijra Bank's HalalPay digital wallet platform combined with CICO's Soukify and related technical platforms, plus the Bank's banking infrastructure and regulatory framework).
+7.7.1. The Parties acknowledge and agree that all consortium projects under this Agreement shall be implemented using the Parties' pre-existing Background IP (primarily Hijra Bank's HalalPay digital wallet platform combined with CICO's digital wallet platform and CICO's Soukify and related technical platforms, plus the Bank's banking infrastructure and regulatory framework).
 
 7.7.2. **No New Product Development:** This consortium arrangement does not contemplate the development of new standalone products or systems. All RFPs, RFQs, and TORs pursued under this Agreement shall be executed by:
 
@@ -216,9 +247,9 @@ Upon completion or termination of any consortium project:
 
 7.7.3. **Project Deliverables:** Any deliverables produced for consortium projects (including configurations, customizations, integrations, documentation, and reports) shall be considered:
 
-(a) Derivative works of the underlying Background IP (both parties' platforms including HalalPay and Soukify)
+(a) Derivative works of the underlying Background IP (both parties' platforms including CICO, HalalPay and Soukify)
 
-(b) Jointly owned for the purposes of the specific project, subject to the profit-sharing provisions of Section 3.2 during the implementation phase only (with no post-project revenue sharing as set forth in Section 3.4.2)
+(b) Jointly owned for the purposes of the specific project only, meaning that such deliverables may only be used to fulfill the obligations and serve the beneficiaries of that particular consortium project. Neither Party may use, commercialize, or deploy such deliverables for any other project, client, or purpose without the express written consent of the other Party. This joint ownership is subject to the profit-sharing provisions of Section 3.2 during the implementation phase only (with no post-project revenue sharing as set forth in Section 3.4.2)
 
 (c) Non-transferable without the mutual written consent of both Parties
 
@@ -227,7 +258,8 @@ Upon completion or termination of any consortium project:
 ### **8\. Confidentiality**
 
 **8.1.** Both Parties agree to maintain strict confidentiality of RFQ/RFP/TOR documents, pricing strategies, financial models, customer data and consortium methodologies.  
-**8.2.** Confidentiality obligations survive for **five (5) years** post-termination.
+**8.2.** Confidentiality obligations survive for **one (1) year** post-termination.  
+**8.3.** Notwithstanding the above, either Party may: (a) use generalized project experience and anonymized metrics for marketing, business development, and future proposals; (b) reference completed projects in corporate credentials and case studies, provided no Confidential Information is disclosed; and (c) comply with legal or regulatory disclosure requirements.
 
 ### **9\. Compliance and Regulatory Matters**
 
@@ -239,7 +271,7 @@ Upon completion or termination of any consortium project:
 
 **10.1. Term**
 
-This Agreement shall remain in force for five (5) years from the Effective Date and shall automatically renew for successive one-year terms unless either Party provides written notice of non-renewal at least sixty (60) days prior to expiration.  
+This Agreement shall remain in force for one (1) years from the Effective Date and shall automatically renew for successive one-year terms unless either Party provides written notice of non-renewal at least sixty (60) days prior to expiration.  
    
 **10.2. Termination for Cause**
 
@@ -256,8 +288,7 @@ Termination of this Agreement — whether for cause, convenience, or at the end 
 
 10.4.1. Any ongoing project implementation, and maintenance  
 10.4.2. The Parties' obligations under confidentiality, compliance, and audit clauses.  
-10.4.3. The natural phase-out or completion of that project's operational lifecycle;  
-10.4.4. A mutually agreed handover or transfer of the project to a third party or successor entity.  
+10.4.3. The natural phase-out or completion of that project's operational lifecycle.  
    
 **10.5. Effect of Termination**
 
