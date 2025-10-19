@@ -14,7 +14,7 @@ CICO and The Bank may each be referred to as a “**Party**” and collectively 
 
 A. The Bank is a share company duly licensed in Ethiopia by the National Bank of Ethiopia, including authorization to conduct Islamic banking activities, and it requires specialized software systems to support its financial services and operations.
 
-B. CICO has developed a proprietary digital multi-currency wallet and operator management software platform (defined herein as the "System") and offers to license this System to The Bank on a co-branding basis under the brand name "CICO - HijraBank", and to provide related support and maintenance services, all in accordance with the terms and conditions of this Agreement.
+B. CICO has developed a proprietary digital multi-currency wallet and operator management software platform (defined herein as the "System") and offers to license this System to The Bank under the brand name "CICO" with Hijra Bank as co-brand partner in Bank-specific contexts, and to provide related support and maintenance services, all in accordance with the terms and conditions of this Agreement.
 
 **NOW, THEREFORE,** in consideration of the mutual covenants and promises contained herein, the Parties hereby agree as follows:
 
@@ -78,11 +78,9 @@ For the avoidance of doubt, the License granted herein confers only a right of a
 
 * **Integrations:** A flexible integration framework to connect the System with The Bank's core banking system or other third-party systems, enabling inter-bank and inter-wallet transfers and other interoperability features. The Parties acknowledge that The Bank has entered into a Remittance Platform and Services Agreement with Hawilpay Inc. dated September 20, 2025, pursuant to which the System shall be integrated with the Hawilpay Platform to enable remittance payouts via Digital Wallet credits. CICO shall provide reasonable technical support to facilitate such integration, with any material custom development to be addressed via Change Request.
 
-* **Digital Lending:** An integrated mobile lending platform with a built-in credit scoring and decision engine, enabling The Bank to exclusively offer Shariah-compliant financing to its customers, in accordance with applicable Islamic banking principles and regulatory requirements.
+* **Digital Lending:** An integrated mobile lending platform with a built-in credit scoring and decision engine, enabling The Bank to offer Shariah-compliant financing to its customers, in accordance with applicable Islamic banking principles and regulatory requirements.
 
 * **Equb (Rotating Savings) Module:** Functionality to digitize traditional informal savings groups (“Equb” or table banking), allowing group savings and lending activities.
-
-* **Pay-As-You-Go Module:** Support for pay-as-you-go financing models, for example to manage mortgage or household solar product loans or other asset financing where incremental payments are tracked.
 
 * **Secure Aid Distribution:** Features for secure cash or aid distribution programs, including biometric and facial recognition support for beneficiary registration and verification, intended for NGOs or government cash transfer programs using the system voucher or NFC Cards.
 
@@ -109,39 +107,76 @@ Any such data exports or documentation copies shall remain subject to all confid
 
 **2.8 Co-Branding and Brand Identity:**
 
-(a) **Brand Name**: The System shall be marketed, operated, and presented to end-users under the co-branded name **"CICO - HijraBank"** (the "**Brand Name**"), reflecting the partnership between CICO as the technology provider and Hijra Bank as the licensed financial institution.
+(a) **Brand Name**: The System shall be marketed, operated, and presented to end-users under the primary brand name **"CICO"** (the "**Brand Name**"). Hijra Bank's brand elements shall be displayed as a co-brand partner in Bank-specific channels and regulatory communications, reflecting the partnership between CICO as the technology provider and platform owner, and Hijra Bank as the licensed financial institution.
 
 (b) **Brand Guidelines**: The Parties shall collaborate to establish brand guidelines for the System, including:
    
-(i) Logo design incorporating both CICO and Hijra Bank brand elements;
+(i) Logo design with CICO as the primary brand, with Hijra Bank logo displayed in Bank-specific contexts;
    
-(ii) Color schemes, fonts, and visual identity consistent with both parties' brand standards;
+(ii) Color schemes, fonts, and visual identity primarily reflecting CICO's brand standards, with Hijra Bank elements in appropriate contexts;
    
-(iii) Marketing and promotional materials featuring the co-branded identity;
+(iii) Marketing and promotional materials featuring the CICO brand prominently, with Hijra Bank identification as the banking partner;
    
-(iv) User interface elements displaying the "CICO - HijraBank" brand.
+(iv) User interface elements displaying the "CICO" brand as primary identity.
 
-(c) **Brand Ownership**: The "CICO - HijraBank" brand and all associated marketing materials developed for the System shall be jointly owned by the Parties for the duration of this Agreement. Upon termination, each Party shall retain rights to use their own individual brand elements, but the co-branded identity shall be retired.
+(c) **Brand Ownership**: The "CICO" brand and all System-related intellectual property, user interfaces, and marketing materials shall remain the exclusive property of CICO. Hijra Bank retains ownership of its own brand elements. Marketing materials that feature both brands shall be used only for the duration of this Agreement and with mutual approval. Upon termination, CICO retains all rights to the "CICO" brand and System materials, and Hijra Bank retains its own brand elements.
 
-(d) **Customer-Facing Branding**: All customer-facing touchpoints shall display the "CICO - HijraBank" brand, including but not limited to:
+(d) **Customer-Facing Branding**: All customer-facing touchpoints shall display the "CICO" brand as the primary platform identity. Hijra Bank's brand elements shall be displayed in the following contexts to identify the banking partner:
    
-(i) Mobile applications (iOS and Android);
+(i) Login screens and account dashboard headers ("Powered by CICO for Hijra Bank customers");
    
-(ii) Web portal and internet banking interfaces;
+(ii) Regulatory and compliance disclosures required by National Bank of Ethiopia;
    
-(iii) USSD menus and SMS communications;
+(iii) Banking-specific functions (account statements, deposit confirmations, loan applications);
    
-(iv) Physical marketing materials and point-of-sale displays;
+(iv) Customer service communications where banking license or regulatory matters are addressed;
    
-(v) Agent and operator-facing applications;
+(v) Physical branch materials and Bank-controlled marketing channels;
    
-(vi) Customer service communications.
+(vi) Co-branded marketing campaigns mutually approved per Section 2.8(e).
+   
+For clarity, the following shall display CICO brand primarily: mobile applications, web portal, USSD menus, SMS notifications, agent/operator applications, transaction interfaces, and promotional campaigns.
 
 (e) **Brand Approval**: Neither Party shall use the co-branded identity or the other Party's individual brand elements in any manner not expressly permitted by this Agreement or approved in writing by the other Party. All marketing materials, press releases, and public communications featuring the co-brand shall be subject to mutual approval.
 
 (f) **Regulatory Compliance**: The Bank acknowledges that as the licensed financial institution, it shall ensure that all branding and marketing of the System complies with National Bank of Ethiopia regulations and Ethiopian advertising standards.
 
 **2.9 Additional Use Capacity:** The initial capacity of **1,000,000 (one million) registered users** referenced in Section 2.1 represents a **billing metric threshold**, not a technical system limitation. The System is technically capable of supporting registered users beyond this threshold. If The Bank's business growth results in exceeding 1,000,000 registered users, additional capacity licensing fees shall apply as set forth in the pricing schedule (ETB 5.00 per additional user as a one-time top-up fee), and the monthly AMS fees will continue to be calculated based on the applicable tier per Annex F. If The Bank requires additional functional modules or features not contemplated in the initial scope (as defined in Annex B), the Parties shall negotiate in good faith an amendment or addendum to this Agreement to license such additional modules, which may involve additional fees as appropriate.
+
+**2.10 Channel Deployment and Third-Party Integrations:**
+
+(a) **CICO's Channel Development Responsibilities:** As part of the System delivery and included in the implementation services and AMS Fees, CICO shall be responsible for developing, deploying, and maintaining the following customer-facing channels and interfaces:
+
+  (i) **Mobile Applications:** Native mobile applications for iOS and Android platforms, including development, testing, branding (per Section 2.8), submission to Apple App Store and Google Play Store, and ongoing updates and maintenance. CICO shall procure and manage developer accounts for app stores under CICO's name (with appropriate Bank co-branding per Section 2.8), and shall handle app store compliance, versioning, and distribution.
+  
+  (ii) **USSD Channel:** Integration with USSD gateway providers to enable USSD menu-based access to the System. CICO shall develop the USSD application logic, menu structure, and backend integration. CICO shall procure and manage relationships with USSD gateway providers (such as telecommunications operators) and handle technical integration, testing, and maintenance of the USSD channel.
+  
+  (iii) **SMS Notifications:** Integration with SMS gateway providers to enable transactional SMS notifications, alerts, and promotional messages. CICO shall procure and manage relationships with SMS gateway service providers, handle API integration, message template management, and ensure reliable message delivery. Per Annex I, per-message SMS costs are pass-through costs charged to The Bank, but the gateway procurement, integration, and management are CICO's responsibility included in AMS Fees.
+  
+  (iv) **Web Portal:** Development and hosting of the web-based user interface for internet banking access, including responsive design for desktop and mobile browsers, user authentication, and all System functionality accessible via web.
+  
+  (v) **API Interfaces:** Development and documentation of APIs (Application Programming Interfaces) for integration with The Bank's core banking system, third-party payment networks (e.g., EthSwitch), remittance platforms (e.g., Hawilpay as referenced in Section 2.2), and other external systems as specified in the Scope of Work.
+
+(b) **Third-Party Vendor Procurement:** CICO shall identify, evaluate, negotiate with, and procure agreements with third-party technology vendors and service providers necessary for the System's operation, including but not limited to:
+  - USSD gateway providers (e.g., Ethio Telecom, Safaricom)
+  - SMS gateway providers and aggregators
+  - Payment switch providers (e.g., EthSwitch for interbank transactions)
+  - Mobile app distribution platforms (Apple App Store, Google Play Store)
+  - Cloud infrastructure providers (if applicable for disaster recovery or additional capacity)
+  - Biometric and KYC verification service providers (if not provided by The Bank)
+  
+CICO shall manage these vendor relationships, ensure service quality, handle technical integrations, and monitor vendor performance. Where such vendor services result in per-transaction or per-message costs, these shall be treated as pass-through costs per Annex I and charged to The Bank accordingly. However, CICO's effort in vendor selection, procurement, integration, and ongoing management is included in the AMS Fees.
+
+(c) **The Bank's Channel Responsibilities:** The Bank shall be responsible for:
+  - Providing necessary regulatory approvals or licenses for deploying channels (e.g., mobile banking approval from National Bank of Ethiopia)
+  - Providing brand assets, logos, and content for use in channels (per Section 2.8)
+  - Approving channel designs, user flows, and user experience before launch
+  - Handling first-level customer support inquiries related to channel usage (with CICO providing L2/L3 support for technical issues per Section 4)
+  - Maintaining reliable internet connectivity from The Bank's premises and branches to CICO's hosted environment
+
+(d) **Channel Ownership and Portability:** All mobile applications, web portals, USSD applications, and related software code developed by CICO shall remain the exclusive intellectual property of CICO per Section 6. The Bank receives only a right to use these channels during the term of this Agreement. Upon termination, CICO may continue to use, modify, and license the channel software to other clients. The Bank may request data export and limited transition assistance per Section 15.5(d), but shall not have rights to the underlying software code or channel infrastructure.
+
+(e) **Channel Customization:** Standard channel features and user interfaces are included in the System as delivered. If The Bank requests material customization to channel design, user flows, or functionality beyond the standard System capabilities, such customization shall be handled via Change Request per Section 4 and may be subject to additional fees at ETB 5,000 per man-day or as otherwise agreed.
 
 ## **3\. Fees and Payment Terms**
 
@@ -191,6 +226,61 @@ Any such data exports or documentation copies shall remain subject to all confid
 
 CICO further warrants that hosting, support, and managed operations services shall be performed in accordance with industry best practices, the Service Level Objectives specified in this Agreement, and the data-residency provisions set forth in Section 7.7.
 
+**3.2.1 Marketing Campaign Categories:**
+
+For purposes of this Agreement, marketing campaigns are categorized as follows:
+
+(a) **Go-To-Market (GTM) Campaigns:** Major launch or relaunch campaigns for System deployment, new feature releases, or major market initiatives. GTM campaigns typically include:
+  - Market research and positioning strategy
+  - Brand launch creative development
+  - Multi-channel media buying (TV, radio, digital, outdoor)
+  - Launch events and activations
+  - Influencer or partnership activations
+  - PR and media relations
+  
+GTM campaigns are subject to quarterly planning and Bank approval as specified in Section 3.2.2.
+
+(b) **Operational/Tactical Campaigns:** Ongoing campaigns to drive user acquisition, engagement, retention, or transaction volume. Operational campaigns include:
+  - In-app promotions and notifications
+  - SMS/USSD promotional messages
+  - CRM-based targeted offers
+  - Agent incentive campaigns
+  - Seasonal or event-based promotions
+  - User referral programs
+  - Re-engagement campaigns for dormant users
+  
+Operational campaigns with total cost (including media spend) under thirty percent (30%) of that month's applicable Monthly Managed Fee may be executed by CICO with written notification to The Bank but without requiring prior approval, provided they align with the approved quarterly marketing plan themes and budgets. For example, if the Monthly Managed Fee for that month is ETB 450,000 (500K-1M registered users tier), operational campaigns under ETB 135,000 (30% of ETB 450,000) may proceed with notification only.
+
+(c) **Always-On Marketing Activities:** Routine marketing operations included in AMS Fees with no additional cost:
+  - Social media management and community engagement
+  - Customer education content (tutorials, FAQs, guides)
+  - Email newsletters and updates
+  - Basic in-app messaging and tips
+  - Performance monitoring and reporting
+  - Campaign analytics and optimization
+  
+These activities do not require Bank approval and are executed by CICO as part of managed operations.
+
+**3.2.2 Quarterly Marketing Planning Process:**
+
+(a) **Proposal Submission:** No later than fifteen (15) business days before the start of each calendar quarter, CICO shall submit to The Bank a Quarterly Marketing Plan comprising:
+  - Proposed GTM campaigns (if any)
+  - Operational campaign calendar and themes
+  - Estimated budgets by campaign and media type
+  - Target KPIs (user acquisition, transaction volume, engagement, retention)
+  - Recommended media buying strategy
+  - Timeline and key milestones
+
+(b) **Bank Review Period:** The Bank shall review and provide feedback or approval within ten (10) business days of receiving the Quarterly Marketing Plan. Approval shall not be unreasonably withheld or delayed.
+
+(c) **Approval Deemed Granted:** If The Bank does not respond within the ten (10) business day review period, the Quarterly Marketing Plan shall be deemed approved and CICO may proceed with execution.
+
+(d) **Budget Modifications:** If The Bank requests material changes to the proposed plan or budgets, the Parties shall meet to discuss and agree on a revised plan within five (5) business days. If no agreement is reached, CICO may proceed with operational campaigns as planned under the 30% threshold specified in Section 3.2.1(b), but GTM campaigns exceeding ETB 200,000 shall be deferred until mutual agreement is reached.
+
+(e) **In-Quarter Adjustments:** CICO may propose tactical or reactive campaigns during the quarter to capitalize on market opportunities or respond to competitive actions. Such proposals with total cost under ETB 100,000 require Bank approval within three (3) business days; if no response is received within three business days, approval is deemed granted and CICO may proceed with execution.
+
+(f) **Annual Marketing Budget:** The Parties shall agree on an indicative annual media spend budget at the start of each calendar year or contract year. This budget serves as a guideline for quarterly planning and may be adjusted quarterly based on business performance, competitive dynamics, and strategic priorities.
+
 **3.3 Taxes:** All fees and payments stated in this Agreement are exclusive of applicable taxes. Each Party shall bear and be responsible for its own taxes in accordance with applicable law. For clarity: (i) CICO shall be responsible for any taxes imposed on its income; and (ii) the Bank shall be responsible for value-added tax (VAT), sales tax, or other consumption taxes applicable to the services it receives under this Agreement. If any withholding or deduction is required by law on payments to CICO, the Bank may deduct such tax from the payments due, provided that it supplies CICO with official receipts and documentation evidencing payment of the tax to the relevant authorities and takes all reasonable steps to minimize such withholding in accordance with applicable law or tax treaties.
 
 **3.4 Invoicing and Payment Procedures:** CICO shall issue invoices to The Bank for the fees payable under this Agreement as follows:
@@ -201,7 +291,7 @@ CICO further warrants that hosting, support, and managed operations services sha
 
 The Bank shall pay each valid invoice within **thirty (30) calendar days** of the invoice date, unless otherwise specified in Annex E or agreed in writing. Payments shall be made in **Ethiopian Birr (ETB)** to CICO’s designated bank account. If the Parties mutually agree, payments may alternatively be settled in another country and in another currency at the prevailing exchange rate, subject to applicable law and regulator approvals.
 
-**3.5 Audit of Revenue:** The Bank shall maintain complete and accurate records of all Chargeable Transactions and associated revenues in sufficient detail to enable the proper calculation of fees payable to CICO, including the Revenue Share. CICO shall have the right, at its own expense and with reasonable notice, to audit such records of The Bank during normal business hours, not more than once per calendar year, solely for the purpose of verifying the accuracy of revenue share payments. All information learned or accessed by CICO in the course of any audit shall be treated as **The Bank’s Confidential Information** and shall not be used for any purpose other than verifying compliance with this Agreement.
+**3.5 Audit of Revenue and Costs:** The Bank shall maintain complete and accurate records of all Chargeable Transactions and associated revenues in sufficient detail to enable the proper calculation of fees payable to CICO, including the Revenue Share. CICO shall have the right, at its own expense and with reasonable notice, to audit such records of The Bank during normal business hours, not more than once per calendar year, solely for the purpose of verifying the accuracy of revenue share payments. Similarly, CICO shall maintain complete and accurate records of all Pass-Through Costs and vendor invoices in sufficient detail to enable proper verification of cost allocations, and The Bank shall have the right, at its own expense and with reasonable notice, to audit such records of CICO during normal business hours, not more than once per calendar year, solely for the purpose of verifying the accuracy of pass-through cost allocations. All information learned or accessed by either Party in the course of any audit shall be treated as the other Party's Confidential Information and shall not be used for any purpose other than verifying compliance with this Agreement.
 
 **3.6 No Other Fees:** Except for the **AMS Fees, Revenue Share, and Operator Incentive** expressly set forth in this Agreement, The Bank shall not be obligated to pay any other license fee, subscription fee, or annual maintenance fee for the System. Any services beyond the agreed Scope of Work—such as significant custom development, on-site professional services, or third-party integrations not covered herein—may be provided by CICO at The Bank’s request subject to a separate **Change Request** and a mutually agreed written addendum or work order. Such additional services may be charged on a **time-and-materials basis** at the prevailing daily rate (**ETB 5,000 per man-day**) or at a fixed price, as agreed in writing prior to commencement of work.
 
@@ -397,11 +487,9 @@ However, neither Party shall disclose any Confidential Information or specific n
 
 * **(a) Termination for Cause:** The non-breaching Party may terminate this Agreement (in whole or in part) pursuant to Section 15.2 if the breach is not cured within the applicable cure period. In the event of such termination for cause by The Bank due to CICO’s breach, CICO shall refund to The Bank any prepaid fees covering the period after the effective termination date. In the event of termination for cause by CICO due to The Bank’s breach, any fees prepaid by The Bank are non-refundable and any fees accrued or due up to the termination date shall become immediately due and payable.
 
-* **(b) Substitute Performance (for CICO’s breach):** If CICO materially breaches and fails to cure, The Bank may, upon written notice, obtain replacement software or services from an alternative provider to fulfill the remaining scope of this Agreement. In such case, CICO shall be liable to reimburse The Bank for the reasonable excess costs actually incurred by The Bank in procuring similar software or services to replace what CICO was obligated to provide, **provided** that such excess costs shall not exceed the fees that would have been payable to CICO for the same period. This remedy is in addition to any refund under (a) and subject to the liability limits in Section 11, except in cases of willful misconduct.
+* **(b) Suspension (for non-payment):** If The Bank is in material breach due to non-payment of fees and fails to cure within the cure period, CICO shall have the right, without terminating the Agreement, to suspend its performance of Support Services or access to the System (for example, by disabling login or updates) until The Bank has paid all outstanding undisputed amounts. CICO shall give at least fifteen (15) days’ advance written notice of any such suspension. Suspension of services shall not be CICO’s first recourse unless the payment default is significant or repeated.
 
-* **(c) Suspension (for non-payment):** If The Bank is in material breach due to non-payment of fees and fails to cure within the cure period, CICO shall have the right, without terminating the Agreement, to suspend its performance of Support Services or access to the System (for example, by disabling login or updates) until The Bank has paid all outstanding undisputed amounts. CICO shall give at least fifteen (15) days’ advance written notice of any such suspension. Suspension of services shall not be CICO’s first recourse unless the payment default is significant or repeated.
-
-* **(d) Legal and Equitable Relief:** The non-breaching Party may seek all other legal or equitable remedies available under law to address the breach, including specific performance, injunctions (especially for breaches of confidentiality or IP rights), and damages, subject to the limitations and exclusions set forth in this Agreement.
+* **(c) Legal and Equitable Relief:** The non-breaching Party may seek all other legal or equitable remedies available under law to address the breach, including specific performance, injunctions (especially for breaches of confidentiality or IP rights), and damages, subject to the limitations and exclusions set forth in this Agreement.
 
 **13.4 Continuation of Obligations:** During the period of notice and cure for any alleged breach (and any dispute resolution period), the Parties shall continue to perform their obligations under this Agreement to the extent possible. For example, if The Bank alleges a material failure in the System, CICO should continue to provide support efforts to resolve it during the cure period; if CICO alleges non-payment, The Bank should pay any undisputed portions and work in good faith to resolve disputes.
 
@@ -748,7 +836,7 @@ The following third-party costs are **pass-through expenses** and are deducted f
 
 * **Transaction-Linked Statutory Levies/Taxes:** Government-mandated transaction taxes, levies, or regulatory fees directly tied to specific transactions (excluding VAT on services).
 
-* **Media Buying for Marketing:** Direct media spend for Bank-approved marketing campaigns, including digital advertising, radio/TV spots, print media, and outdoor advertising. (Note: Marketing operations and campaign management are included in the AMS Fee per Section 3.2; only actual media spend is pass-through).
+* **Media Buying for Marketing:** Direct media spend for Bank-approved marketing campaigns, including digital advertising, radio/TV spots, print media, and outdoor advertising. Campaign categories and approval processes are defined in Sections 3.2.1 and 3.2.2. (Note: Marketing operations and campaign management are included in the AMS Fee per Section 3.2; only actual media spend is pass-through).
 
 ## **NOT Pass-Through (Included in Managed Fee)**
 
@@ -762,11 +850,35 @@ The following costs are **covered by the Monthly AMS Fees** and are NOT deducted
 
 ## **Verification and Audit**
 
-Per Section 3.5, The Bank has the right to audit pass-through cost calculations and request supporting documentation from third-party vendors to verify that costs are:
+Per Section 3.5, The Bank has the right, not more than once per calendar year, to audit pass-through cost calculations and request supporting documentation from CICO to verify that costs are:
 * Actually incurred and paid
 * Reasonable and at prevailing market rates
 * Not marked up by CICO
 * Properly allocated to The Bank's transactions
+
+## **Media Spend Budget Framework and Campaign Execution Authority**
+
+To provide budget predictability and operational efficiency for both Parties, the following framework applies to media spend for marketing campaigns:
+
+(a) **Annual Marketing Budget:** The Parties shall agree on an indicative annual media spend budget at the start of each calendar year or contract year. This budget serves as a guideline and may be adjusted quarterly based on business performance.
+
+(b) **Quarterly Allocation:** Media spend shall be allocated across quarters based on the approved Quarterly Marketing Plans (per Section 3.2.2). Typical allocation might be:
+  - Q1 (Launch/GTM focus): 35-40% of annual budget
+  - Q2-Q4 (Operational campaigns): 20-25% per quarter
+
+(c) **Spending Authority:** Once a Quarterly Marketing Plan is approved by The Bank (or deemed approved per Section 3.2.2(c)), CICO has authority to execute media buying and operational campaigns up to the approved budget without requiring transaction-by-transaction approval from The Bank. This includes:
+  - Negotiating with media vendors
+  - Executing media buys within approved channels and budgets
+  - Making tactical adjustments to optimize campaign performance
+  - Shifting budget between media channels (e.g., from radio to digital) if total quarterly budget is maintained
+
+(d) **Operational Campaign Threshold:** As specified in Section 3.2.1(b), operational campaigns with total cost (including media spend) under 30% of that month's Monthly Managed Fee may be executed by CICO with written notification to The Bank but without requiring prior approval, provided they align with approved quarterly themes and total annual budget.
+
+(e) **Budget Overruns:** If actual media costs are projected to exceed the approved quarterly budget by more than ten percent (10%), CICO shall notify The Bank and obtain approval before incurring additional spend. Emergency or time-sensitive campaigns (e.g., competitive response, crisis management) may proceed with email notification if Bank approval cannot be obtained within twenty-four (24) hours.
+
+(f) **Cost Verification:** All media spend invoices from third-party vendors shall be provided to The Bank monthly for verification as pass-through costs per Section 3.5. CICO shall maintain detailed records including vendor invoices, insertion orders, and proof of performance/delivery.
+
+(g) **Vendor Selection:** CICO shall select media vendors and negotiate rates in accordance with industry best practices. The Bank may request vendor documentation during annual audits to verify that costs are reasonable and at prevailing market rates per the Verification and Audit provisions above.
 
 ## **Example Calculation**
 
@@ -870,8 +982,8 @@ See Annex F for complete tiered pricing table (0-5K through >2M registered users
 * **Support Operations:** L1/L2/L3 helpdesk, incident management, RCA
 * **Customer Ops:** Onboarding/KYC workflow, education
 * **Operator/Agent Ops:** Onboarding, training, field playbooks, performance nudges
-* **Marketing Ops:** Campaign setup/execution, CRM segments, in-app promos, field activations (*media spend is pass-through*)
-* **Reporting & Governance:** KPI dashboards, monthly reviews, quarterly roadmap, **quarterly marketing plans** (campaigns, budgets, calendar for Bank approval), monthly marketing performance reports
+* **Marketing Ops:** Campaign setup/execution, CRM segments, in-app promos, field activations (*media spend is pass-through*). Marketing campaign categories (GTM, Operational, Always-On) and approval processes detailed in Sections 3.2.1 and 3.2.2. Operational campaigns under 30% of monthly managed fee may proceed with notification only.
+* **Reporting & Governance:** KPI dashboards, monthly reviews, quarterly roadmap, **quarterly marketing plans** (campaigns, budgets, calendar for Bank approval with 10-day review period and deemed approval), monthly marketing performance reports
 
 ### **5) Revenue Share & Pass-Through**
 
