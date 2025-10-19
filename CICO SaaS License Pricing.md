@@ -1,8 +1,8 @@
-# **CICO MANAGED PLATFORM & OPERATIONS FEES**
+# **CICO CASH MANAGED PLATFORM & OPERATIONS FEES**
 
 ## **1\) Managed Model (Scope Snapshot)**
 
-**CICO provides:** fully hosted & managed Digital Wallet & Operator Management Platform, plus day‑to‑day **customer support**, **marketing operations**, and **user/operator onboarding**.
+**CICO provides:** fully hosted & managed CICO CASH Digital Wallet & Operator Management Platform, plus day‑to‑day **customer support**, **marketing operations**, and **user/operator onboarding**.
 
 **Bank retains:** regulatory compliance & licensing, AML/CFT decisions, product/fee approvals, brand/policy oversight, and L3 complaint adjudication. CICO executes operations under Bank oversight per SLA/Scope.
 
