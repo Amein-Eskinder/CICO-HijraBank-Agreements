@@ -41,7 +41,7 @@ SaaS license agreement for CICO's multi-currency digital wallet and operator man
 - Pricing: Tiered monthly fees (ETB 25K - 900K+) based on registered users
 - Revenue Share: CICO 50%, Operators 10%, Bank 40% (on Net fees)
 - Initial Capacity: 1M registered users
-- Term: 3 years initial, auto-renew annually
+- Term: 5 years from Go-Live, auto-renew for 1-year terms (90 days notice to terminate)
 
 **Key Sections:**
 - Section 2.2: System functionality (multi-currency wallet)
@@ -67,8 +67,7 @@ Partnership agreement for international remittance services (USA → Ethiopia co
 - Payout Methods: Cash pickup, bank account, CICO wallet (USD or ETB)
 - FX Control: Bank sets all exchange rates, keeps 100% of FX spread
 - Settlement: T+2 (48 hours) in USD
-- Term: 5 years initial, auto-renew annually
-- Termination: Bank can exit if volume < $50K/month for 6 months
+- Term: 5 years from Go-Live, auto-renew for 1-year terms (90 days notice required)
 
 **Key Sections:**
 - Section 2.7: CICO - HijraBank wallet integration (multi-currency)

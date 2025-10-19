@@ -428,13 +428,11 @@ Unless otherwise agreed, each Party may refer to the existence of this commercia
 
 ## **16\. Term and Termination**
 
-**16.1 Term of Agreement**: This Agreement shall commence on the Effective Date and shall remain in effect for an initial term of five (5) years from the Go-Live Date (the “Initial Term”). Thereafter, the Agreement shall automatically renew for successive one (1) year terms unless either Party gives the other Party at least ninety (90) days’ written notice of non-renewal prior to the end of the then-current term.
+**16.1 Term of Agreement**: This Agreement shall commence on the Effective Date and shall remain in effect for an initial term of five (5) years from the Go-Live Date (the "Initial Term"). Thereafter, the Agreement shall automatically renew for successive one (1) year terms unless either Party gives the other Party at least ninety (90) days' written notice of non-renewal prior to the end of the then-current term.
 
 **16.2** **Termination for Cause**: Either Party may terminate this Agreement immediately upon written notice if the other Party commits a material breach and fails to cure that breach within the applicable cure period specified in Section 14.2.
 
-**16.3** **Termination for Performance**: If, after the first twelve (12) months from the Go-Live Date, the average monthly Foreign Currency Inflow over a continuous six-month period is less than $50,000 USD (or another mutually agreed threshold), Hijrabank may terminate this Agreement upon ninety (90) days’ written notice to Hawilpay.
-
-**16.4 Effects of Termination:** Upon termination or expiration of this Agreement for any reason:
+**16.3 Effects of Termination:** Upon termination or expiration of this Agreement for any reason:
 
 **(a) Cessation of Use:** The access rights granted to Hijrabank shall immediately terminate, and Hijrabank shall cease all use of the Hawilpay Platform and API.
 
