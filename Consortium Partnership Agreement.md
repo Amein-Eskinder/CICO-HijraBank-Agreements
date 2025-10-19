@@ -104,7 +104,7 @@ In this Agreement, unless the context otherwise requires:
 
 3.4. **Post-Implementation Commercialization**
 
-3.4.1. The Parties acknowledge that consortium projects under this Agreement utilize pre-existing Background IP (primarily Hijra Bank's HalalPay digital wallet platform combined with CICO's Soukify and other technical platforms, plus the Bank's banking infrastructure and regulatory framework) which are scaled, expanded, or customized for specific project requirements, rather than developing new standalone intellectual property.
+3.4.1. The Parties acknowledge that consortium projects under this Agreement utilize pre-existing Background IP (primarily Hijra Bank's HalalPay digital wallet platform combined with CICO's CICO CASH digital wallet platform, CICO's Soukify and other technical platforms, plus the Bank's banking infrastructure and regulatory framework) which are scaled, expanded, or customized for specific project requirements, rather than developing new standalone intellectual property.
 
 3.4.2. **No Post-Project Revenue Sharing:** Given that no new intellectual property is created through consortium projects, there shall be no post-implementation commercialization revenue sharing arrangements between the Parties after project completion. All revenue sharing is limited to the project implementation period as defined in Section 3.2.
 
@@ -169,15 +169,17 @@ Each Party retains full and exclusive ownership of all intellectual property, sy
 
 CICO's Background IP includes, without limitation:
 
-7.2.1. Soukify platform and all related systems
+7.2.1. CICO CASH digital wallet platform and all related systems
 
-7.2.2. CICO's financial technology platforms and infrastructure
+7.2.2. Soukify platform and all related systems
 
-7.2.3. Proprietary methodologies, algorithms, and technical frameworks
+7.2.3. CICO's financial technology platforms and infrastructure
 
-7.2.4. Pre-existing software code, APIs, and development tools
+7.2.4. Proprietary methodologies, algorithms, and technical frameworks
 
-7.2.5. Any systems, platforms, or tools developed by CICO independently of this consortium
+7.2.5. Pre-existing software code, APIs, and development tools
+
+7.2.6. Any systems, platforms, or tools developed by CICO independently of this consortium
 
 **7.3. Hijra Bank's Background IP**
 
@@ -233,11 +235,11 @@ Upon completion or termination of any consortium project:
 
 **7.7. Use of Pre-Existing IP for Consortium Projects**
 
-7.7.1. The Parties acknowledge and agree that all consortium projects under this Agreement shall be implemented using the Parties' pre-existing Background IP (primarily Hijra Bank's HalalPay digital wallet platform combined with CICO's digital wallet platform and CICO's Soukify and related technical platforms, plus the Bank's banking infrastructure and regulatory framework).
+7.7.1. The Parties acknowledge and agree that all consortium projects under this Agreement shall be implemented using the Parties' pre-existing Background IP (primarily Hijra Bank's HalalPay digital wallet platform combined with CICO's CICO CASH digital wallet platform and CICO's Soukify and related technical platforms, plus the Bank's banking infrastructure and regulatory framework).
 
 7.7.2. **No New Product Development:** This consortium arrangement does not contemplate the development of new standalone products or systems. All RFPs, RFQs, and TORs pursued under this Agreement shall be executed by:
 
-(a) **Scaling** the Parties' existing platforms and systems (including HalalPay, CICO and Soukify) to accommodate new user bases, geographic regions, or transaction volumes
+(a) **Scaling** the Parties' existing platforms and systems (including HalalPay, CICO CASH and Soukify) to accommodate new user bases, geographic regions, or transaction volumes
 
 (b) **Expanding** existing functionalities to meet specific project requirements
 
@@ -247,7 +249,7 @@ Upon completion or termination of any consortium project:
 
 7.7.3. **Project Deliverables:** Any deliverables produced for consortium projects (including configurations, customizations, integrations, documentation, and reports) shall be considered:
 
-(a) Derivative works of the underlying Background IP (both parties' platforms including CICO, HalalPay and Soukify)
+(a) Derivative works of the underlying Background IP (both parties' platforms including CICO's CICO CASH, Hijra Bank's HalalPay and CICO's Soukify)
 
 (b) Jointly owned for the purposes of the specific project only, meaning that such deliverables may only be used to fulfill the obligations and serve the beneficiaries of that particular consortium project. Neither Party may use, commercialize, or deploy such deliverables for any other project, client, or purpose without the express written consent of the other Party. This joint ownership is subject to the profit-sharing provisions of Section 3.2 during the implementation phase only (with no post-project revenue sharing as set forth in Section 3.4.2)
 

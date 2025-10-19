@@ -14,7 +14,7 @@ CICO and The Bank may each be referred to as a “**Party**” and collectively 
 
 A. The Bank is a share company duly licensed in Ethiopia by the National Bank of Ethiopia, including authorization to conduct Islamic banking activities, and it requires specialized software systems to support its financial services and operations.
 
-B. CICO has developed a proprietary digital multi-currency wallet and operator management software platform (defined herein as the "System") and offers to license this System to The Bank under the brand name "CICO" with Hijra Bank as co-brand partner in Bank-specific contexts, and to provide related support and maintenance services, all in accordance with the terms and conditions of this Agreement.
+B. CICO has developed a proprietary digital multi-currency wallet and operator management software platform (defined herein as the "System") and offers to license this System to The Bank under the brand name "CICO CASH" with Hijra Bank as co-brand partner in Bank-specific contexts, and to provide related support and maintenance services, all in accordance with the terms and conditions of this Agreement.
 
 **NOW, THEREFORE,** in consideration of the mutual covenants and promises contained herein, the Parties hereby agree as follows:
 
@@ -107,7 +107,7 @@ Any such data exports or documentation copies shall remain subject to all confid
 
 **2.8 Co-Branding and Brand Identity:**
 
-(a) **Brand Name**: The System shall be marketed, operated, and presented to end-users under the primary brand name **"CICO"** (the "**Brand Name**"). Hijra Bank's brand elements shall be displayed as a co-brand partner in Bank-specific channels and regulatory communications, reflecting the partnership between CICO as the technology provider and platform owner, and Hijra Bank as the licensed financial institution.
+(a) **Brand Name**: The System shall be marketed, operated, and presented to end-users under the primary brand name **"CICO CASH"** (the "**Brand Name**"). Hijra Bank's brand elements shall be displayed as a co-brand partner in Bank-specific channels and regulatory communications, reflecting the partnership between CICO as the technology provider and platform owner, and Hijra Bank as the licensed financial institution.
 
 (b) **Brand Guidelines**: The Parties shall collaborate to establish brand guidelines for the System, including:
    
@@ -115,15 +115,15 @@ Any such data exports or documentation copies shall remain subject to all confid
    
 (ii) Color schemes, fonts, and visual identity primarily reflecting CICO's brand standards, with Hijra Bank elements in appropriate contexts;
    
-(iii) Marketing and promotional materials featuring the CICO brand prominently, with Hijra Bank identification as the banking partner;
+(iii) Marketing and promotional materials featuring the CICO CASH brand prominently, with Hijra Bank identification as the banking partner;
    
-(iv) User interface elements displaying the "CICO" brand as primary identity.
+(iv) User interface elements displaying the "CICO CASH" brand as primary identity.
 
-(c) **Brand Ownership**: The "CICO" brand and all System-related intellectual property, user interfaces, and marketing materials shall remain the exclusive property of CICO. Hijra Bank retains ownership of its own brand elements. Marketing materials that feature both brands shall be used only for the duration of this Agreement and with mutual approval. Upon termination, CICO retains all rights to the "CICO" brand and System materials, and Hijra Bank retains its own brand elements.
+(c) **Brand Ownership**: The "CICO CASH" brand and all System-related intellectual property, user interfaces, and marketing materials shall remain the exclusive property of CICO. Hijra Bank retains ownership of its own brand elements. Marketing materials that feature both brands shall be used only for the duration of this Agreement and with mutual approval. Upon termination, CICO retains all rights to the "CICO CASH" brand and System materials, and Hijra Bank retains its own brand elements.
 
-(d) **Customer-Facing Branding**: All customer-facing touchpoints shall display the "CICO" brand as the primary platform identity. Hijra Bank's brand elements shall be displayed in the following contexts to identify the banking partner:
+(d) **Customer-Facing Branding**: All customer-facing touchpoints shall display the "CICO CASH" brand as the primary platform identity. Hijra Bank's brand elements shall be displayed in the following contexts to identify the banking partner:
    
-(i) Login screens and account dashboard headers ("Powered by CICO for Hijra Bank customers");
+(i) Login screens and account dashboard headers ("Powered by CICO CASH for Hijra Bank customers");
    
 (ii) Regulatory and compliance disclosures required by National Bank of Ethiopia;
    

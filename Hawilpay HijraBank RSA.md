@@ -52,7 +52,7 @@ E. The Parties wish to enter into this Agreement to define the comprehensive ter
 
 * **“Intellectual Property Rights”** (or **"IP Rights"**) means all forms of intellectual property rights and proprietary rights worldwide, whether registered or unregistered, including but not limited to: patents, patent applications and inventions; copyrights and rights in software (including object code and source code); database rights; trade secrets and know-how; trademarks, service marks, trade names, business names, logos, and domain names; design rights; and any other rights of a similar nature. For purposes of this Agreement, Intellectual Property Rights specifically include all rights in and to the Hawilpay Platform and Documentation, and any modifications, updates or derivative works thereof.
 
-* **“Payout Location”** means any Hijrabank branch, authorized agent, or other physical location designated by Hijrabank and approved by Hawilpay for the cash disbursement of Remittances to Recipients, or any Hijrabank bank account designated to receive a direct-to-account deposit, or a Recipient's CICO - HijraBank digital wallet account for electronic credit of remittance funds.
+* **“Payout Location”** means any Hijrabank branch, authorized agent, or other physical location designated by Hijrabank and approved by Hawilpay for the cash disbursement of Remittances to Recipients, or any Hijrabank bank account designated to receive a direct-to-account deposit, or a Recipient's CICO CASH Digital Wallet account for electronic credit of remittance funds.
 
 * **“Recipient”** means the designated individual in Ethiopia who is the intended beneficiary of a Remittance Transaction.
 
@@ -80,15 +80,15 @@ E. The Parties wish to enter into this Agreement to define the comprehensive ter
 
 **2.6** **Hijrabank's Infrastructure Responsibilities**: Hijrabank is responsible for procuring, installing, and maintaining the hardware, operating system software, database management system (RDBMS), network connectivity, and any third-party system software required for its systems to connect to and interact with the Hawilpay Platform. Hijrabank shall ensure that its hardware and system software are kept under appropriate maintenance and support agreements with their respective vendors to minimize downtime and facilitate troubleshooting. Hijrabank shall monitor and manage the performance, capacity, and availability of its infrastructure supporting the integration.
 
-**2.7 Integration with CICO - HijraBank Digital Wallet:**
+**2.7 Integration with CICO CASH Digital Wallet:**
 
-(a) **Multi-Currency Wallet Platform**: The Parties acknowledge that Hijrabank operates a multi-currency digital wallet platform under the co-branded name "CICO - HijraBank" (the "**Digital Wallet**"), which is provided and managed by CICO Financial Technologies pursuant to a separate Software Utilization Support & Maintenance License Agreement dated September 20, 2025 (the "**CICO SLA**").
+(a) **Multi-Currency Wallet Platform**: The Parties acknowledge that Hijrabank has licensed a multi-currency digital wallet platform operating under the brand name "CICO CASH" (the "**CICO CASH Digital Wallet**" or "**Digital Wallet**"), which is provided and managed by CICO Financial Technologies pursuant to a separate Software Utilization Support & Maintenance License Agreement dated September 20, 2025 (the "**CICO SLA**"). The CICO CASH Digital Wallet is owned and operated by CICO Financial Technologies, a sister company to Hawilpay Inc.
 
-(b) **Wallet-Based Payout Option**: In addition to traditional payout methods (cash pickup and bank account deposits), Remittance Transactions may be disbursed by crediting the Recipient's CICO - HijraBank Digital Wallet account, subject to:
+(b) **Wallet-Based Payout Option**: In addition to traditional payout methods (cash pickup and bank account deposits), Remittance Transactions may be disbursed by crediting the Recipient's CICO CASH Digital Wallet account, subject to:
    
 (i) The Recipient having an active and verified Digital Wallet account;
    
-(ii) Successful technical integration between the Hawilpay Platform API and the CICO - HijraBank Digital Wallet API;
+(ii) Successful technical integration between the Hawilpay Platform API and the CICO CASH Digital Wallet API;
    
 (iii) The Recipient's selection of wallet credit as the preferred payout method (or Sender's selection on the Recipient's behalf).
 
@@ -108,7 +108,7 @@ E. The Parties wish to enter into this Agreement to define the comprehensive ter
 
 (e) **Technical Integration Responsibilities**:
    
-(i) Hijrabank shall coordinate with CICO Financial Technologies to ensure that the Hawilpay Platform API can interface with the CICO - HijraBank Digital Wallet API to enable automated wallet credits upon successful payout instructions;
+(i) Hijrabank shall coordinate with CICO Financial Technologies to ensure that the Hawilpay Platform API can interface with the CICO CASH Digital Wallet API to enable automated wallet credits upon successful payout instructions;
    
 (ii) Hijrabank shall be responsible for any integration development costs between the Hawilpay Platform and the Digital Wallet platform;
    
@@ -118,7 +118,37 @@ E. The Parties wish to enter into this Agreement to define the comprehensive ter
 
 (g) **Service Levels and Performance**: Wallet-based payouts shall be subject to the same service level commitments as other payout methods, including timely processing and real-time status updates. Any service disruptions related to the Digital Wallet platform shall be addressed pursuant to the CICO SLA, but shall not excuse Hijrabank's performance obligations to Hawilpay under this Agreement.
 
-(h) **No Hawilpay Role in Wallet Operations**: Hawilpay shall have no role in, liability for, or control over the operation, management, or pricing of the CICO - HijraBank Digital Wallet. Hijrabank is solely responsible for all aspects of the Digital Wallet platform, including currency conversions, wallet balances, and customer service for wallet users.
+(h) **No Hawilpay Role in Wallet Operations**: Hawilpay shall have no role in, liability for, or control over the operation, management, or pricing of the CICO CASH Digital Wallet, which is owned and operated by CICO Financial Technologies (Hawilpay's sister company). Hijrabank, as the licensee of the CICO CASH Digital Wallet under the CICO SLA, is responsible for customer-facing aspects including customer service for wallet users, while CICO Financial Technologies retains ownership and operational control of the platform.
+
+(i) **CICO Integration Benefits and Transaction Fee Framework**: The Parties acknowledge that wallet-based remittance payouts provide strategic benefits to the overall remittance ecosystem by:
+   
+(i) Enabling instant, real-time remittance delivery to Recipients;
+   
+(ii) Reducing cash handling costs and security risks for Hijrabank;
+   
+(iii) Creating ongoing wallet activity and transaction volume that benefits all parties;
+   
+(iv) Providing Recipients with multi-currency wallet functionality (USD + ETB holdings);
+   
+(v) Driving adoption of the CICO CASH Digital Wallet platform, which benefits CICO Financial Technologies (Hawilpay's sister company) and strengthens the integrated Hawilpay-CICO remittance corridor.
+
+To recognize these benefits and ensure fair value distribution across the remittance ecosystem, the Parties agree:
+
+(i) **Wallet Transaction Fees**: When Hijrabank charges transaction fees for wallet-based remittance payouts or subsequent wallet activities (transfers, bill payments, currency conversions, withdrawals, etc.), such fees shall be subject to revenue sharing with CICO Financial Technologies pursuant to the CICO SLA (50% CICO, 10% Operator Incentive, 40% Hijrabank). This revenue sharing compensates CICO for operating the wallet platform infrastructure.
+
+(ii) **Fee Structure Encouragement**: While Hijrabank retains pricing authority under the CICO SLA, the Parties acknowledge that reasonable transaction fees for wallet services:
+    - Align with industry standards for digital wallet operations;
+    - Compensate CICO for platform development, hosting, and maintenance;
+    - Provide sustainable economics for the tripartite relationship (Hawilpay-Hijrabank-CICO);
+    - Should be balanced to promote wallet adoption while ensuring platform sustainability.
+
+(iii) **Performance Monitoring**: Hijrabank shall provide quarterly reports to Hawilpay summarizing:
+    - Number of remittances paid out via CICO CASH Digital Wallet;
+    - Percentage of total remittances delivered via wallet vs. other methods;
+    - Average wallet transaction fees charged (if any);
+    - Wallet user retention and subsequent transaction activity.
+
+(iv) **Strategic Alignment**: The Parties shall meet semi-annually to review wallet integration performance, user adoption trends, and fee structures to ensure the wallet payout channel remains commercially attractive for all parties in the ecosystem.
 
 ## **3\. Financial Covenants and Commercial Terms**
 
@@ -432,7 +462,11 @@ Unless otherwise agreed, each Party may refer to the existence of this commercia
 
 **16.2** **Termination for Cause**: Either Party may terminate this Agreement immediately upon written notice if the other Party commits a material breach and fails to cure that breach within the applicable cure period specified in Section 14.2.
 
-**16.3 Effects of Termination:** Upon termination or expiration of this Agreement for any reason:
+**16.3 Early Termination by Hijrabank (Pre-Go-Live)**: In the event Hijrabank decides to terminate this Agreement **prior to the Go-Live Date** (for reasons other than Hawilpay's breach or Force Majeure), Hijrabank shall pay to Hawilpay, within thirty (30) days of such termination notice, an early termination fee of **USD $5,000**. This early termination fee is a genuine pre-estimate of Hawilpay's investment and opportunity cost in allocating resources, technical integration efforts, and business development for this partnership. Upon such payment and termination, Hijrabank will have no further rights to use the Hawilpay Platform.
+
+**16.4 Mutual Termination (Convenience)**: At any time after the Hawilpay Platform has been in live operation for at least **24 months** after the Go-Live Date, the Parties may mutually agree in writing to terminate this Agreement. If the Parties so agree, they shall negotiate in good faith any termination conditions, such as the effective date and any wind-down responsibilities. Either Party may propose a mutual termination if, for instance, business circumstances change or the partnership is no longer viable, but neither Party can force termination for convenience without the other's consent (except as provided in Section 16.3 for early project termination).
+
+**16.5 Effects of Termination:** Upon termination or expiration of this Agreement for any reason:
 
 **(a) Cessation of Use:** The access rights granted to Hijrabank shall immediately terminate, and Hijrabank shall cease all use of the Hawilpay Platform and API.
 
@@ -664,11 +698,11 @@ Unless otherwise agreed, each Party may refer to the existence of this commercia
 
 **27.1 Hijrabank's Exchange Rate Responsibility**:
 
-(a) **Bank Sets FX Rates**: The Parties acknowledge and agree that Hijrabank is solely responsible for setting the foreign exchange (FX) rate applied to remittance transactions for the conversion of USD to Ethiopian Birr (ETB). This authority extends to all payout methods, including cash pickups, bank account deposits, and credits to CICO - HijraBank Digital Wallet accounts. Hawilpay does not set, control, or guarantee any exchange rates.
+(a) **Bank Sets FX Rates**: The Parties acknowledge and agree that Hijrabank is solely responsible for setting the foreign exchange (FX) rate applied to remittance transactions for the conversion of USD to Ethiopian Birr (ETB). This authority extends to all payout methods, including cash pickups, bank account deposits, and credits to CICO CASH Digital Wallet accounts. Hawilpay does not set, control, or guarantee any exchange rates.
 
 (b) **Rate Disclosure to Customers**: Hijrabank shall ensure that the exchange rate offered to recipients is clearly disclosed in accordance with National Bank of Ethiopia regulations and consumer protection requirements. Hijrabank is responsible for the competitiveness and transparency of the rates it offers.
 
-(c) **FX Spread**: Any foreign exchange spread (the difference between the interbank or official NBE rate and the rate offered to recipients) shall be retained by Hijrabank as part of its revenue from remittance services, and shall not be subject to revenue sharing with Hawilpay under Section 3. This includes FX spread earned on immediate conversions (e.g., ETB wallet credits) and delayed conversions (e.g., USD wallet holdings subsequently converted to ETB within the CICO - HijraBank Digital Wallet).
+(c) **FX Spread**: Any foreign exchange spread (the difference between the interbank or official NBE rate and the rate offered to recipients) shall be retained by Hijrabank as part of its revenue from remittance services, and shall not be subject to revenue sharing with Hawilpay under Section 3. This includes FX spread earned on immediate conversions (e.g., ETB wallet credits) and delayed conversions (e.g., USD wallet holdings subsequently converted to ETB within the CICO CASH Digital Wallet).
 
 (d) **Consistency with CICO SLA**: The Parties acknowledge that Hijrabank's authority to set FX rates under this Agreement is consistent with Hijrabank's pricing authority under its Software Utilization Support & Maintenance License Agreement with CICO Financial Technologies. FX spread revenue is not subject to the revenue sharing provisions of the CICO SLA (which apply only to transaction fees, not FX spread).
 
