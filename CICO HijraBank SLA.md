@@ -149,17 +149,17 @@ For clarity, the following shall display CICO brand primarily: mobile applicatio
 
 (f) **Regulatory Compliance**: The Bank acknowledges that as the licensed financial institution, it shall ensure that all branding and marketing of the System complies with National Bank of Ethiopia regulations and Ethiopian advertising standards.
 
-**2.9 Additional Use Capacity:** The initial capacity of **1,000,000 (one million) registered users** referenced in Section 2.1 represents a **billing metric threshold**, not a technical system limitation. The System is technically capable of supporting registered users beyond this threshold. If The Bank's business growth results in exceeding 1,000,000 registered users, additional capacity licensing fees shall apply as set forth in the pricing schedule (ETB 5.00 per additional user as a one-time top-up fee), and the monthly AMS fees will continue to be calculated based on the applicable tier per Annex F. If The Bank requires additional functional modules or features not contemplated in the initial scope (as defined in Annex B), the Parties shall negotiate in good faith an amendment or addendum to this Agreement to license such additional modules, which may involve additional fees as appropriate.
+**2.9 Additional Use Capacity:** The initial capacity of **1,000,000 (one million) registered users** referenced in Section 2.1 represents a **billing metric threshold**, not a technical system limitation. The System is technically capable of supporting registered users beyond this threshold. If The Bank's business growth results in exceeding 1,000,000 registered users, additional capacity shall be subject to mutual agreement between the Parties. User counts are tracked for reporting purposes only (there are no user-based fees). If The Bank requires additional functional modules or features not contemplated in the initial scope (as defined in Annex B), the Parties shall negotiate in good faith an amendment or addendum to this Agreement to license such additional modules, which may involve additional fees as appropriate.
 
 **2.10 Channel Deployment and Third-Party Integrations:**
 
-(a) **CICO's Channel Development Responsibilities:** As part of the System delivery and included in the implementation services and AMS Fees, CICO shall be responsible for developing, deploying, and maintaining the following customer-facing channels and interfaces:
+(a) **CICO's Channel Development Responsibilities:** As part of the System delivery and included in CICO's managed services (funded from revenue share), CICO shall be responsible for developing, deploying, and maintaining the following customer-facing channels and interfaces:
 
   (i) **Mobile Applications:** Native mobile applications for iOS and Android platforms, including development, testing, branding (per Section 2.8), submission to Apple App Store and Google Play Store, and ongoing updates and maintenance. CICO shall procure and manage developer accounts for app stores under CICO's name (with appropriate Bank co-branding per Section 2.8), and shall handle app store compliance, versioning, and distribution.
   
   (ii) **USSD Channel:** Integration with USSD gateway providers to enable USSD menu-based access to the System. CICO shall develop the USSD application logic, menu structure, and backend integration. CICO shall procure and manage relationships with USSD gateway providers (such as telecommunications operators) and handle technical integration, testing, and maintenance of the USSD channel.
   
-  (iii) **SMS Notifications:** Integration with SMS gateway providers to enable transactional SMS notifications, alerts, and promotional messages. CICO shall procure and manage relationships with SMS gateway service providers, handle API integration, message template management, and ensure reliable message delivery. Per Annex I, per-message SMS costs are pass-through costs charged to The Bank, but the gateway procurement, integration, and management are CICO's responsibility included in AMS Fees.
+  (iii) **SMS Notifications:** Integration with SMS gateway providers to enable transactional SMS notifications, alerts, and promotional messages. CICO shall procure and manage relationships with SMS gateway service providers, handle API integration, message template management, and ensure reliable message delivery. Per Annex I, per-message SMS costs are pass-through costs charged to The Bank, but the gateway procurement, integration, and management are CICO's responsibility funded from CICO's revenue share allocation.
   
   (iv) **Web Portal:** Development and hosting of the web-based user interface for internet banking access, including responsive design for desktop and mobile browsers, user authentication, and all System functionality accessible via web.
   
@@ -173,7 +173,7 @@ For clarity, the following shall display CICO brand primarily: mobile applicatio
   - Cloud infrastructure providers (if applicable for disaster recovery or additional capacity)
   - Biometric and KYC verification service providers (if not provided by The Bank)
   
-CICO shall manage these vendor relationships, ensure service quality, handle technical integrations, and monitor vendor performance. Where such vendor services result in per-transaction or per-message costs, these shall be treated as pass-through costs per Annex I and charged to The Bank accordingly. However, CICO's effort in vendor selection, procurement, integration, and ongoing management is included in the AMS Fees.
+CICO shall manage these vendor relationships, ensure service quality, handle technical integrations, and monitor vendor performance. Where such vendor services result in per-transaction or per-message costs, these shall be treated as pass-through costs per Annex I and charged to The Bank accordingly. However, CICO's effort in vendor selection, procurement, integration, and ongoing management is funded from CICO's revenue share allocation.
 
 (c) **The Bank's Channel Responsibilities:** The Bank shall be responsible for:
   - Providing necessary regulatory approvals or licenses for deploying channels (e.g., mobile banking approval from National Bank of Ethiopia)
@@ -281,9 +281,9 @@ GTM campaigns are subject to quarterly planning and Bank approval as specified i
   - User referral programs
   - Re-engagement campaigns for dormant users
   
-Operational campaigns with total cost (including media spend) under thirty percent (30%) of that month's applicable Monthly Managed Fee may be executed by CICO with written notification to The Bank but without requiring prior approval, provided they align with the approved quarterly marketing plan themes and budgets. For example, if the Monthly Managed Fee for that month is ETB 450,000 (500K-1M registered users tier), operational campaigns under ETB 135,000 (30% of ETB 450,000) may proceed with notification only.
+Operational campaigns with total cost (including media spend) under **ETB 150,000 per month** may be executed by CICO with written notification to The Bank but without requiring prior approval, provided they align with the approved quarterly marketing plan themes and budgets. Campaigns exceeding ETB 150,000 require Bank approval per Section 3.3.
 
-(c) **Always-On Marketing Activities:** Routine marketing operations included in AMS Fees with no additional cost:
+(c) **Always-On Marketing Activities:** Routine marketing operations funded from CICO's revenue share allocation:
   - Social media management and community engagement
   - Customer education content (tutorials, FAQs, guides)
   - Email newsletters and updates
@@ -317,7 +317,7 @@ These activities do not require Bank approval and are executed by CICO as part o
 
 **3.4 Invoicing and Payment Procedures:** CICO shall issue invoices to The Bank for the fees payable under this Agreement as follows:
 
-* **Monthly AMS Fees** shall be invoiced and payable **monthly in advance** based on the applicable subscriber tier.
+* **NO Monthly Platform Fees:** There are no monthly subscription fees, platform fees, or user-based charges payable by The Bank.
 
 * **Revenue Share** (including the Operator Incentive portion) shall be calculated in real time. Where monthly settlement applies, CICO shall issue invoices **monthly in arrears** based on reported Chargeable Transaction revenues.
 
@@ -325,7 +325,7 @@ The Bank shall pay each valid invoice within **thirty (30) calendar days** of th
 
 **3.5 Audit of Revenue and Costs:** The Bank shall maintain complete and accurate records of all Chargeable Transactions and associated revenues in sufficient detail to enable the proper calculation of fees payable to CICO, including the Revenue Share. CICO shall have the right, at its own expense and with reasonable notice, to audit such records of The Bank during normal business hours, not more than once per calendar year, solely for the purpose of verifying the accuracy of revenue share payments. Similarly, CICO shall maintain complete and accurate records of all Pass-Through Costs and vendor invoices in sufficient detail to enable proper verification of cost allocations, and The Bank shall have the right, at its own expense and with reasonable notice, to audit such records of CICO during normal business hours, not more than once per calendar year, solely for the purpose of verifying the accuracy of pass-through cost allocations. All information learned or accessed by either Party in the course of any audit shall be treated as the other Party's Confidential Information and shall not be used for any purpose other than verifying compliance with this Agreement.
 
-**3.6 No Other Fees:** Except for the **AMS Fees, Revenue Share, and Operator Incentive** expressly set forth in this Agreement, The Bank shall not be obligated to pay any other license fee, subscription fee, or annual maintenance fee for the System. Any services beyond the agreed Scope of Work—such as significant custom development, on-site professional services, or third-party integrations not covered herein—may be provided by CICO at The Bank’s request subject to a separate **Change Request** and a mutually agreed written addendum or work order. Such additional services may be charged on a **time-and-materials basis** at the prevailing daily rate (**ETB 5,000 per man-day**) or at a fixed price, as agreed in writing prior to commencement of work.
+**3.6 No Other Fees:** The Bank's financial obligations under this Agreement are limited to: (i) **Revenue Share** (50/10/40 split on Net Chargeable Transaction Fees), and (ii) **Bank-approved marketing campaigns** per Section 3.3. The Bank shall not be obligated to pay any monthly platform fees, subscription fees, user-based fees, or annual maintenance fees. Any services beyond the agreed Scope of Work—such as significant custom development, on-site professional services, or third-party integrations not covered herein—may be provided by CICO at The Bank’s request subject to a separate **Change Request** and a mutually agreed written addendum or work order. Standard customizations are included in CICO's services (funded from revenue share, subject to capacity per Section 6.1(e)). Material custom development beyond standard scope may require separate agreement.
 
 ## **4\. Support and Maintenance Services**
 
@@ -335,13 +335,13 @@ CICO shall provide to The Bank comprehensive software support and maintenance se
 
 * **(b) Issue Resolution and Bug Fixes:** CICO shall use commercially reasonable efforts to promptly diagnose and correct any verifiable errors, bugs, or defects in the System reported by The Bank that cause the System to deviate from its documented specifications. **Bug fixes** or workarounds will be provided in accordance with the response and resolution times set forth in the SLA (with higher-severity issues such as System unavailability being addressed with top priority). CICO shall keep The Bank informed of the status of problem resolution and shall provide interim solutions or bypasses to mitigate the impact of issues until a permanent fix is available.
 
-* **(c) Updates and New Releases:** As part of the Support Services, and at no additional license cost beyond the AMS Fees to The Bank, CICO shall provide The Bank with all **updates, upgrades, patches, and new releases** of the System that CICO makes generally available to its customers during the term of this Agreement. New releases (versions) may include enhancements or new features to the core System. CICO will notify The Bank of the availability of any such updates or new releases and, if requested by The Bank, will plan, schedule, and perform the installation of the updates pursuant to the terms of this Agreement. The installation of major new versions may be scheduled in coordination with The Bank to minimize disruption. Any new module or product that is not part of the System as defined in Section 2 (and which CICO offers for separate licensing) would be subject to a separate agreement or addendum if The Bank elects to license it.
+* **(c) Updates and New Releases:** As part of the Support Services included in CICO's managed services (funded from revenue share), CICO shall provide The Bank with all **updates, upgrades, patches, and new releases** of the System that CICO makes generally available to its customers during the term of this Agreement. New releases (versions) may include enhancements or new features to the core System. CICO will notify The Bank of the availability of any such updates or new releases and, if requested by The Bank, will plan, schedule, and perform the installation of the updates pursuant to the terms of this Agreement. The installation of major new versions may be scheduled in coordination with The Bank to minimize disruption. Any new module or product that is not part of the System as defined in Section 2 (and which CICO offers for separate licensing) would be subject to a separate agreement or addendum if The Bank elects to license it.
 
 * **(d) Service Level Agreement (SLA):** The Parties shall execute and adhere to a detailed SLA (Annex A) that defines support procedures, issue severity levels, response and resolution time commitments, and performance metrics for the Support Services. The SLA will cover, among other things, definitions of **Critical** vs **Non-Critical** issues, target response times (e.g., initial response within 30 minutes for critical issues), and escalation procedures. The SLA shall be considered an integral part of this Agreement. In the event of any conflict between the SLA and this Agreement, this Agreement shall govern, except with respect to the specific support metrics and processes, in which case the SLA shall govern.
 
 * **(e) The Bank’s Support Obligations:** The Bank shall provide all information and assistance reasonably required by CICO to reproduce, troubleshoot, and resolve reported issues. This includes providing detailed error descriptions, screenshots or logs, and remote access to the System (or on-site access, if necessary and feasible) for CICO’s support engineers. The Bank shall also designate a reasonable number of trained employees or representatives who will be the primary liaisons with CICO’s support team (often referred to as “key contacts”), and through whom all support communications will be channeled. The Bank is responsible for first-level support to its own end-users and operators; issues that cannot be resolved or questions that cannot be answered by The Bank’s internal IT support can be escalated to CICO.
 
-* **(f) Customizations and Change Requests:** If The Bank requests a modification or enhancement to the System that is outside the scope of standard maintenance (a “Customization”), CICO will evaluate such request and, if feasible, provide The Bank with a written proposal or Change Request detailing the technical approach, any impact on the System, the timeline, and any additional cost. No Customization will be undertaken by CICO unless and until the Parties agree in writing on the scope and any associated fees (at a rate of ETB 5,000 per man-day for development services). Minor configuration changes that can be achieved via provided toolkits or settings in the System (as opposed to source code changes) will be accommodated by CICO as part of support when reasonable. Customizations developed for The Bank will be subject to the Intellectual Property terms of Section 6, unless otherwise agreed.
+* **(f) Customizations and Change Requests:** If The Bank requests a modification or enhancement to the System that is outside the scope of standard maintenance (a “Customization”), CICO will evaluate such request and, if feasible, provide The Bank with a written proposal or Change Request detailing the technical approach, any impact on the System, the timeline, and any additional cost. Standard customizations are included in CICO's services (funded from revenue share, subject to resource capacity and prioritization per Section 6.1(e)). Material custom development beyond standard scope may require separate agreement. Minor configuration changes that can be achieved via provided toolkits or settings in the System (as opposed to source code changes) will be accommodated by CICO as part of support when reasonable. Customizations developed for The Bank will be subject to the Intellectual Property terms of Section 6, unless otherwise agreed.
 
   **Configuration Scope Definitions:**
   
@@ -483,7 +483,7 @@ The Bank shall be responsible for maintaining its own business continuity and op
 
 **10.1 Performance Warranty:** CICO warrants that the System, as **configured and used** in accordance with the Documentation, will perform in all material respects according to the specifications and functionalities described in the Documentation and this Agreement. During an initial warranty period of **twelve (12) months** from the Go Live Date (or, if earlier, fifteen (15) months from the Effective Date), CICO shall, at its own cost and as part of its warranty obligation, correct or repair any reproducible material defect in the System reported by The Bank in writing. CICO will use diligent efforts to correct such defect within a reasonable time frame, consistent with the severity of the issue (and in line with SLA timelines for critical issues). If CICO is unable to remedy a material defect or failure of the System to conform to the warranty after a reasonable number of attempts, The Bank’s sole remedy and CICO’s sole liability will be as set forth in Section 10.4 below.
 
-**Clarification on Warranty vs. Monthly Fees:** The 12-month warranty period covers software defects and bugs only. It does not waive or defer the monthly AMS Fees payable under Section 3.1(a), which cover ongoing hosting, support, and managed operations services. Both the warranty and monthly AMS Fees are in effect simultaneously from the Go-Live Date.
+**Clarification on Warranty vs. Services:** The 12-month warranty period covers software defects and bugs only. CICO's ongoing hosting, support, and managed operations services are funded from CICO's revenue share allocation throughout the Agreement term.
 
 **10.2 Support Warranty:** CICO warrants that all support, maintenance, and other professional services it provides under this Agreement will be performed with promptness and diligence and in a workmanlike and professional manner by qualified personnel, in accordance with the standards generally observed in the software services industry for similar services.
 
@@ -602,7 +602,7 @@ However, neither Party shall disclose any Confidential Information or specific n
      - CICO may monitor usage to ensure compliance with these restrictions.
 
   (iv) **Migration Period Fees:** During the Migration Period, The Bank shall pay CICO the following fees:
-     - **Monthly Platform Access Fee:** Fifty percent (50%) of the final monthly AMS Fee applicable in the month immediately preceding termination (reflects reduced service level - no enhancements, limited support, migration-only usage);
+     - **Monthly Platform Access Fee:** ETB 225,000 per month (reflects reduced service level - no enhancements, limited support, migration-only usage);
      - **Revenue Share:** Continues at the standard 50/10/40 split on Net Chargeable Transaction Fees for any remaining transactions processed during the Migration Period;
      - **Pass-Through Costs:** Continue to apply for any third-party services utilized (SMS, USSD, switch fees, etc.).
      
@@ -755,14 +755,14 @@ Each Party shall notify the other Party of any change in its address or contact 
 
 * **Service Credits for Uptime Failures:** If CICO fails to meet the monthly uptime commitment, The Bank shall be entitled to service credits applied as follows:
 
-| Monthly Uptime Achieved | Service Credit (% of Monthly AMS Fee) |
+| Monthly Uptime Achieved | Service Credit (ETB) |
 | ----- | ----- |
-| < 99.5% but ≥ 99.0% | 5% |
-| < 99.0% but ≥ 98.0% | 10% |
-| < 98.0% but ≥ 95.0% | 25% |
-| < 95.0% | 50% |
+| < 99.5% but ≥ 99.0% | 25,000 |
+| < 99.0% but ≥ 98.0% | 50,000 |
+| < 98.0% but ≥ 95.0% | 125,000 |
+| < 95.0% | 250,000 |
 
-Service credits shall be applied as discounts to the following month's AMS Fee invoice. Credits are The Bank's sole and exclusive remedy for uptime failures, except in cases of willful misconduct or gross negligence by CICO. To claim service credits, The Bank must submit a written request within 30 days of the end of the affected month, with supporting documentation if requested by CICO.
+Service credits shall be credited against Bank-approved marketing campaign payments in the following month, or refunded directly if no marketing campaigns are scheduled. Credits are The Bank's sole and exclusive remedy for uptime failures, except in cases of willful misconduct or gross negligence by CICO. To claim service credits, The Bank must submit a written request within 30 days of the end of the affected month, with supporting documentation if requested by CICO.
 
 * **Support Hours:** 08:00–17:00 EAT on business days; P1 available 24/7.
 
@@ -943,11 +943,11 @@ The following third-party costs are **pass-through expenses** and are deducted f
 
 * **Transaction-Linked Statutory Levies/Taxes:** Government-mandated transaction taxes, levies, or regulatory fees directly tied to specific transactions (excluding VAT on services).
 
-* **Media Buying for Marketing:** Direct media spend for Bank-approved marketing campaigns, including digital advertising, radio/TV spots, print media, and outdoor advertising. Campaign categories and approval processes are defined in Sections 3.2.1 and 3.2.2. (Note: Marketing operations and campaign management are included in the AMS Fee per Section 3.2; only actual media spend is pass-through).
+* **Media Buying for Marketing:** Direct media spend for Bank-approved marketing campaigns, including digital advertising, radio/TV spots, print media, and outdoor advertising. Campaign categories and approval processes are defined in Sections 3.2.1 and 3.3. (Note: Marketing operations and campaign management are funded by CICO from revenue share per Section 3.2; only actual media spend is funded by The Bank per Section 3.3).
 
 ## **NOT Pass-Through (Included in Managed Fee)**
 
-The following costs are **covered by the Monthly AMS Fees** and are NOT deducted as pass-through:
+The following costs are **funded by CICO's revenue share allocation** and are NOT deducted as pass-through:
 
 * Core hosting infrastructure and data center operations
 * Application maintenance, development, and platform upgrades
@@ -1155,7 +1155,7 @@ Upon receipt of a Change Request, CICO shall perform an impact assessment and pr
 
 * **Feasibility Analysis:** Whether the change is technically feasible within the System architecture
 * **Effort Estimate:** Estimated development effort in man-days
-* **Resource Assessment:** Whether the customization is included in standard AMS service or requires separate agreement
+* **Resource Assessment:** Whether the customization is included in CICO's standard services (funded from revenue share) or requires separate agreement
 * **Priority and Timeline:** Proposed delivery schedule based on CICO's product roadmap and resource availability
 * **Timeline:** Proposed delivery schedule, including dependencies
 * **Impact Analysis:** Potential impact on existing functionality, performance, or other modules
@@ -1201,7 +1201,7 @@ Upon approval:
 
 ## **7) Delivery Terms for Change Requests**
 
-* **Standard Customizations:** Included in monthly AMS Fees, delivered based on CICO's development priorities and resource capacity
+* **Standard Customizations:** Included in CICO's services (funded from revenue share), delivered based on CICO's development priorities and resource capacity
 * **Material Custom Development:** If change requires resources beyond standard service scope, parties shall negotiate separate terms
 * **Third-Party Costs:** Any third-party licensing or integration costs shall be pass-through to The Bank
 
@@ -1254,7 +1254,7 @@ ADDITIONAL INFORMATION:
 FOR CICO USE ONLY:
 Feasibility: [Feasible / Not Feasible]
 Effort Estimate: [X man-days]
-Resource Assessment: [Included in AMS / Requires separate agreement]
+Resource Assessment: [Included in standard services / Requires separate agreement]
 Priority Level: [Critical / High / Medium / Low]
 Proposed Timeline: [Start date - End date]
 Impact Analysis: [Summary]
