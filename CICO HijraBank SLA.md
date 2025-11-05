@@ -50,7 +50,15 @@ B. CICO has developed a proprietary digital multi-currency wallet and operator m
 
 * **“Effective Date”** means the date first written above, which is the date this Agreement comes into force and the License is granted, unless a different commencement date is specified explicitly for certain obligations.
 
-* **"Registered User"** means any wallet account created in the System, regardless of transaction activity or balance status. For billing purposes under Section 3.1, the monthly fee tier shall be determined by the total number of Registered Users at month-end. Registered Users include all accounts in the System database including active, inactive, dormant, suspended, or closed accounts. Only accounts that have been **permanently deleted** by the end-user (where all user data is removed from the System database in accordance with applicable data protection laws and the user's explicit deletion request) are excluded from the Registered User count. The Bank cannot unilaterally delete user accounts for billing purposes; account deletion can only occur upon the user's explicit request to permanently remove their account and data from the System.
+* **"Registered User"** means any wallet account created in the System, regardless of transaction activity or balance status. For billing purposes under Section 3.1, the monthly fee tier shall be determined by the total number of Registered Users at month-end. Registered Users include all accounts in the System database including active, inactive, dormant, suspended, or closed accounts. The following accounts are excluded from the Registered User count:
+  
+  (i) Accounts that have been **permanently deleted** by the end-user (where all user data is removed from the System database in accordance with applicable data protection laws and the user's explicit deletion request);
+  
+  (ii) **Dormant Accounts** that meet ALL of the following criteria: (a) no transaction activity for a continuous period of at least **24 consecutive months**, (b) zero account balance for the entire 24-month period, (c) no login or authentication activity during the 24-month period, and (d) the account has been formally reclassified by The Bank as "Dormant" in the System with appropriate customer notification as required by applicable banking regulations. Dormant Accounts shall be automatically excluded from billing beginning in the month following their formal reclassification. If a Dormant Account subsequently becomes active (any transaction, balance, or login), it shall be immediately re-included in the Registered User count for billing purposes.
+  
+  (iii) **Fraudulent or Duplicate Accounts** that have been identified and flagged by The Bank's compliance or risk management systems as fraudulent, duplicate, or created in violation of the Bank's KYC/AML policies, provided such accounts are blocked from all system functionality and formally documented in The Bank's compliance records.
+
+  **Billing Reconciliation:** The Bank may request quarterly reconciliation of the Registered User count, including review of account classifications (active, inactive, dormant) and verification of exclusions under subsections (i), (ii), and (iii) above. CICO shall provide supporting reports and data exports to facilitate such reconciliation. Any disputed account classifications shall be resolved through good-faith discussion between the Parties' technical and finance teams within fifteen (15) business days.
 
 * **“Active Subscriber”** means a registered wallet user who either (i) conducted at least one transaction during the billing month, or (ii) held a positive balance at any point during the billing month, as recorded in the System. This metric is used for reporting, performance measurement, and operational analytics only, and does not affect billing calculations.
 
@@ -174,19 +182,15 @@ CICO shall manage these vendor relationships, ensure service quality, handle tec
   - Handling first-level customer support inquiries related to channel usage (with CICO providing L2/L3 support for technical issues per Section 4)
   - Maintaining reliable internet connectivity from The Bank's premises and branches to CICO's hosted environment
 
-(d) **Channel Ownership and Portability:** All mobile applications, web portals, USSD applications, and related software code developed by CICO shall remain the exclusive intellectual property of CICO per Section 6. The Bank receives only a right to use these channels during the term of this Agreement. Upon termination, CICO may continue to use, modify, and license the channel software to other clients. The Bank may request data export and limited transition assistance per Section 15.5(d), but shall not have rights to the underlying software code or channel infrastructure.
+(d) **Channel Ownership and Portability:** All mobile applications, web portals, USSD applications, and related software code developed by CICO shall remain the exclusive intellectual property of CICO per Section 6. The Bank receives only a right to use these channels during the term of this Agreement. Upon termination, CICO may continue to use, modify, and license the channel software to other clients. The Bank may request: (i) data export and limited transition assistance per Section 15.5(d) and (d-1), and (ii) optional post-termination channel access for customer migration purposes per Section 15.5(d-2) (subject to applicable fees and restrictions). The Bank shall not have rights to the underlying software code, source code, or channel infrastructure, and no perpetual licenses are granted.
 
-(e) **Channel Customization:** Standard channel features and user interfaces are included in the System as delivered. If The Bank requests material customization to channel design, user flows, or functionality beyond the standard System capabilities, such customization shall be handled via Change Request per Section 4 and may be subject to additional fees at ETB 5,000 per man-day or as otherwise agreed.
+(e) **Channel Customization:** Standard channel features and user interfaces are included in the System as delivered. The Bank may request customization to channel design, user flows, or functionality, which shall be handled via Change Request per Section 4. Such customization services are funded by CICO from its revenue share allocation, subject to CICO's resource availability, development priorities, and the scope limitations in Section 4.2. CICO shall evaluate each customization request and may approve, defer, or decline requests based on technical feasibility, resource capacity, alignment with CICO's product roadmap, and impact on other projects. The Bank acknowledges that customization requests do not guarantee development or specific delivery timelines.
 
 ## **3\. Fees and Payment Terms**
 
-**3.1 License and Service Fees:** In consideration for the License grant of the System and the provision of Maintenance & Support Services, The Bank shall pay fees to CICO in accordance with the following hybrid model of fixed fees and revenue sharing:
+**3.1 License and Service Fees:** In consideration for the License grant of the System and the provision of Maintenance & Support Services, The Bank shall compensate CICO exclusively through revenue sharing on transactional fees. **There are no monthly fixed fees, subscription fees, or platform access fees.** CICO shall fund all platform operations, hosting, infrastructure, support, and development activities from its revenue share allocation. The Bank shall additionally fund marketing campaigns through a separate proposal-based approval process as set forth in Section 3.3.
 
-* **(a) Fixed Monthly Fee (Subscription Fee):** Starting from the Go-Live Date (Month 1), The Bank shall pay CICO a monthly fee based on the total number of Registered Users at month-end, in accordance with the SaaS Tier Pricing Schedule set forth in Annex F of this Agreement. The applicable monthly AMS Fee (also referred to as "Monthly Managed Fee" in the pricing schedule) covers The Bank's right to use the System, receive Support Services, managed operations, and benefit from all included upgrades and updates. Unless otherwise agreed, the AMS Fee shall be invoiced and paid monthly in advance. For clarity, the 12-month software warranty period referenced in Section 10.1 covers defect resolution only and does not waive the monthly AMS Fee; both the warranty and the monthly fee are in effect simultaneously from Go-Live.
-
-  **Billing Cycle Definition:** For purposes of determining the applicable pricing tier, "month-end" means the count of Registered Users as of 11:59 PM East Africa Time (EAT) on the last calendar day of the billing month. The count shall be automatically captured by the System and included in monthly billing reports provided to The Bank for verification.
-
-* **(b) Revenue Share Model:** In addition to the AMS Fee, CICO shall be entitled to a share of **Net Chargeable Transaction Fees** (as defined below) generated from all Chargeable Transactions processed through the System. The Parties agree that:  
+* **(a) Revenue Share Model:** CICO shall be entitled to a share of **Net Chargeable Transaction Fees** (as defined below) generated from all Chargeable Transactions processed through the System. The Parties agree that:  
   * The Bank shall retain **forty percent (40%)** of Net Chargeable Transaction Fees.  
   * CICO shall receive **fifty percent (50%)** of Net Chargeable Transaction Fees in real time.  
   * A further ten percent (10%) operator share shall be allocated in real time as incentives to **Operators** for facilitating cash-in, cash-out, and related services, thereby ensuring operator participation, retention, and service quality.
@@ -200,17 +204,15 @@ CICO shall manage these vendor relationships, ensure service quality, handle tec
   
   *Example:* Gross ETB 10.00 – Pass-Through ETB 2.00 = **Net ETB 8.00** → CICO 4.00, Operator 0.80, Bank 3.20.
 
-* **(c) Transition & Applicability:** The AMS (Application Maintenance Services) Fee and the Revenue Share shall operate concurrently, unless otherwise agreed in writing. The AMS Fee covers licensing, maintenance, and support services, while the Revenue Share represents CICO's participation in the transactional revenues enabled by the System, For clarity, **Revenue Share is calculated on end-user transaction fees and is independent of AMS Fees**; neither offsets the other unless agreed in writing.
+* **(b) CICO's Operating Model:** CICO shall fund all costs of platform operations from its 50% revenue share allocation, including but not limited to: hosting infrastructure, server maintenance, software development, technical support, customer operations, operator management, and all personnel costs. The Bank has no obligation to fund these operational costs. CICO acknowledges that it operates at its own commercial risk, and that low transaction volumes or business performance may result in the revenue share being insufficient to cover CICO's operational costs. The Bank makes no guarantee of minimum transaction volumes or revenues.
 
-* **(d) Fee Structure Protection:** The Bank shall not reduce or reclassify operator incentives or end-user fees in a manner intended to diminish Net Chargeable Fees without CICO's prior written consent. This provision ensures that the revenue sharing model remains economically viable for both Parties and that fee structures are not manipulated to circumvent CICO's revenue share entitlement. Any proposed changes to fee structures, operator incentive models, or transaction categorizations that would materially impact the calculation of Net Chargeable Transaction Fees shall be subject to mutual agreement between the Parties.
+* **(c) Fee Structure Protection:** The Bank shall not reduce or reclassify operator incentives or end-user fees in a manner intended to diminish Net Chargeable Fees without CICO's prior written consent. This provision ensures that the revenue sharing model remains economically viable for both Parties and that fee structures are not manipulated to circumvent CICO's revenue share entitlement. Any proposed changes to fee structures, operator incentive models, or transaction categorizations that would materially impact the calculation of Net Chargeable Transaction Fees shall be subject to mutual agreement between the Parties.
 
-* **(e) Settlement of Revenue Share:** Revenue shares due to CICO shall be credited in **real time** from each Chargeable Transaction, unless otherwise agreed by the Parties. Where a monthly settlement is adopted, The Bank shall provide a statement of Chargeable Transaction revenues for the prior month by the **15th business day** of each month and concurrently remit CICO’s share. The Bank shall implement tracking and reporting mechanisms within the System to accurately capture the revenues subject to sharing, and CICO shall have the right to audit such reports as reasonably necessary.
+* **(d) Settlement of Revenue Share:** Revenue shares due to CICO shall be credited in **real time** from each Chargeable Transaction, unless otherwise agreed by the Parties. Where a monthly settlement is adopted, The Bank shall provide a statement of Chargeable Transaction revenues for the prior month by the **15th business day** of each month and concurrently remit CICO's share. The Bank shall implement tracking and reporting mechanisms within the System to accurately capture the revenues subject to sharing, and CICO shall have the right to audit such reports as reasonably necessary.
 
-* **(f) No Cap on AMS Fees:** For clarity, the monthly AMS Fees shall remain payable in accordance with the SaaS Tier Pricing Schedule regardless of transactional volumes, and the obligation to pay the Revenue Share shall continue throughout the Term of the Agreement. There is no cap or substitution mechanism whereby AMS Fees are replaced by revenue share; both apply as distinct obligations unless expressly modified by written amendment.
+* **(e) No Alternative Fees:** For clarity, the Bank shall not pay CICO any monthly platform fees, subscription fees, licensing fees, user-based fees, or any fixed recurring charges. CICO's sole compensation under this Agreement is the 50% revenue share allocation and reimbursement for Bank-approved marketing campaigns per Section 3.3. Any proposal by CICO to introduce fixed fees would require a written amendment to this Agreement signed by both Parties.
 
-* **(g) Proration for Partial Months:** If the Service commencement date (Go-Live Date for AMS fees, which begins Month 13) or termination date occurs mid-month, the AMS Fee for that partial month shall be prorated on a daily basis, calculated as: (Monthly AMS Fee ÷ Number of days in that calendar month) × Actual days of service provided. For the avoidance of doubt, the Registered User count used for tier determination shall be the count as of the service termination date for a partial final month.
-
-**3.2 Maintenance and Support Fees:** The Monthly AMS Fees described in Section 3.1(a) and Annex F, together with the applicable Revenue Share, shall constitute full and complete compensation for all Hosting, Maintenance, Support Services, and Managed Operations provided under this Agreement. There shall be no separate annual maintenance or hosting fee charged to the Bank. CICO warrants that, during the Term of this Agreement and provided the Bank remains current on all payments due, the Bank shall be entitled to receive, without additional charge beyond the fees described herein, all standard:
+**3.2 Services Included in Revenue Share:** The Revenue Share described in Section 3.1(a) shall constitute full and complete compensation to CICO for all Hosting, Maintenance, Support Services, and Managed Operations provided under this Agreement. CICO shall fund all of the following services from its revenue share allocation, with no additional fees charged to The Bank:
 
 * **Hosting & Security Services:** Ethiopia-resident hosting, 24/7 monitoring, backups/disaster recovery, patching, infrastructure management, server monitoring, and security administration at the CICO Data Center;
 
@@ -222,11 +224,39 @@ CICO shall manage these vendor relationships, ensure service quality, handle tec
 
 * **Operator/Agent Operations:** Operator and agent onboarding & training coordination, field playbooks, performance nudges and performance management;
 
-* **Marketing Operations:** Campaign setup & execution, CRM segmentation, in-app promotions, field activations (Note: media spend for marketing campaigns is a pass-through cost per Annex I and is not included in the AMS Fee);
+* **Marketing Operations:** Campaign setup & execution (technical implementation only), CRM segmentation, in-app promotions, and field activation coordination. Marketing media spend and advertising costs shall be funded by The Bank per Section 3.3;
 
-* **Reporting & Governance:** KPI dashboards (real-time access via admin portal), monthly service reviews (operational performance, incidents, resolutions), quarterly roadmap planning and updates (platform enhancements, new features), **quarterly marketing plans** (CICO shall present proposed marketing campaigns, budgets, and calendar to The Bank for review and approval each quarter), and monthly marketing performance reports (campaign ROI, user acquisition costs, engagement metrics).
+* **Reporting & Governance:** KPI dashboards (real-time access via admin portal), monthly service reviews (operational performance, incidents, resolutions), quarterly roadmap planning and updates (platform enhancements, new features), and monthly marketing performance reports (campaign ROI, user acquisition costs, engagement metrics).
 
 CICO further warrants that hosting, support, and managed operations services shall be performed in accordance with industry best practices, the Service Level Objectives specified in this Agreement, and the data-residency provisions set forth in Section 7.7.
+
+**3.3 Marketing Funding and Proposal Process:** Marketing campaigns to drive user acquisition, engagement, and transaction volumes shall be funded directly by The Bank through the following proposal-based process:
+
+* **(a) Monthly Marketing Proposals:** CICO shall submit to The Bank a written marketing proposal by the **5th business day of each month** for the upcoming month's marketing activities. Each proposal shall include:
+  - Proposed marketing campaigns (digital, outdoor, in-branch, field activations, etc.)
+  - Target audience and campaign objectives (user acquisition, reactivation, transaction growth, etc.)
+  - Detailed budget breakdown (media buying, creative production, promotional costs, field team costs, etc.)
+  - Expected outcomes and key performance indicators
+  - Timeline and execution plan
+  
+* **(b) Bank Approval:** The Bank shall review CICO's marketing proposal and provide written approval or rejection within **seven (7) business days** of receipt. The Bank may:
+  - Approve the proposal as submitted
+  - Approve with modifications to budget, channels, or creative approach
+  - Reject the proposal and request a revised submission
+  - Approve a partial budget (e.g., approve certain campaigns while deferring others)
+  
+* **(c) Payment of Approved Marketing Costs:** Upon The Bank's written approval of a marketing proposal, The Bank shall:
+  - Pay the approved budget amount to CICO within **ten (10) business days** of approval, or
+  - Pay directly to third-party vendors (media agencies, outdoor advertisers, telecom providers) if mutually agreed, with CICO providing vendor details and invoices
+  
+* **(d) Marketing Execution and Reporting:** CICO shall execute approved marketing campaigns in accordance with the approved proposal and budget. CICO shall provide The Bank with:
+  - Weekly campaign performance updates (during active campaigns)
+  - Monthly marketing performance report (by the 10th business day of the following month) including actual spend, campaign metrics, user acquisition, transaction volumes attributable to campaigns, and ROI analysis
+  - Supporting documentation (invoices, receipts, vendor statements) for all marketing expenditures
+  
+* **(e) Budget Accountability:** CICO shall use marketing funds exclusively for the approved campaigns and shall not redirect funds to other purposes without The Bank's prior written consent. Any unused marketing budget at the end of the month shall be returned to The Bank or credited toward the next month's proposal, as mutually agreed. The Bank may audit marketing expenditures upon reasonable notice.
+
+* **(f) Marketing Strategy Alignment:** CICO and The Bank shall conduct quarterly marketing strategy sessions to align on long-term marketing objectives, brand positioning, customer segments, and annual marketing budget forecasts. These quarterly sessions shall inform the monthly marketing proposals.
 
 **3.2.1 Marketing Campaign Categories:**
 
@@ -367,9 +397,23 @@ CICO shall provide to The Bank comprehensive software support and maintenance se
 
 ## **6\. Intellectual Property Rights**
 
-**6.1 Ownership of System and Intellectual Property:** The Parties acknowledge and agree that **all Intellectual Property Rights in and to the System, the Documentation, and any software, modules, or materials provided by CICO under this Agreement are and shall remain the exclusive property of CICO** (or its third-party licensors, if any). Except for the License expressly granted to The Bank in Section 2.1, nothing in this Agreement transfers or assigns to The Bank any ownership rights in the System or related Intellectual Property. Any modifications, enhancements, new versions, or derivative works of the System (including those resulting from Customizations performed by CICO for The Bank) shall be the sole property of CICO and subject to the same Intellectual Property Rights as the original System. The Bank’s rights to use any such modifications or new releases are granted as part of the License, subject to the terms of this Agreement.
+**6.1 Ownership of System and Intellectual Property:** The Parties acknowledge and agree that **all Intellectual Property Rights in and to the System, the Documentation, and any software, modules, or materials provided by CICO under this Agreement are and shall remain the exclusive property of CICO** (or its third-party licensors, if any). Except for the License expressly granted to The Bank in Section 2.1, nothing in this Agreement transfers or assigns to The Bank any ownership rights in the System or related Intellectual Property. 
 
-**6.2 The Bank’s Materials:** All Intellectual Property Rights in any materials, data, or content supplied by The Bank to CICO for the purposes of configuration or integration (for example, The Bank’s logos, branding elements, or proprietary business processes documented by The Bank) shall remain the property of The Bank. To the extent necessary for CICO to perform its obligations (such as incorporating The Bank’s logo into the System’s interface for co-branding purposes), The Bank grants CICO a non-exclusive, royalty-free license to use such materials for the term of this Agreement for the sole purpose of providing the System and services to The Bank.
+**All modifications, enhancements, new versions, customizations, or derivative works of the System (including those resulting from Customizations requested by The Bank, developed by CICO, or co-developed with The Bank's input) shall be the sole and exclusive property of CICO** and subject to the same Intellectual Property Rights as the original System. The Bank's rights to use any such modifications or new releases are granted as part of the License, subject to the terms of this Agreement.
+
+**For the avoidance of doubt:**
+
+(a) **No Ownership by Payment or Request:** The fact that The Bank requests, suggests, or provides requirements for a customization or enhancement does not create any ownership interest, joint ownership, or intellectual property rights for The Bank in such customization. All customizations and enhancements remain CICO's exclusive property regardless of who initiated the request or provided the business requirements.
+
+(b) **Customizations Included in Service:** Customization and configuration services are included as part of CICO's managed services funded from CICO's revenue share allocation (subject to the scope limitations and prioritization provisions in Section 4.2). The Bank does not pay separate fees for standard customizations, and therefore acquires no ownership rights beyond the License to use such customizations as part of the System during the term of this Agreement.
+
+(c) **CICO's Right to Commercialize:** CICO retains the unrestricted right to incorporate any customizations, enhancements, or features developed for The Bank into CICO's general product offering and to license such features to other clients (including The Bank's competitors) without restriction, royalty obligation, or need for The Bank's consent. CICO may market, license, sublicense, modify, or otherwise exploit such features as part of its commercial platform.
+
+(d) **No Joint Development:** This Agreement does not contemplate joint development or co-ownership of intellectual property. Any contributions, suggestions, requirements, or feedback provided by The Bank (including through The Bank's participation in requirements gathering, user acceptance testing, or feedback sessions) shall be deemed Feedback under Section 6.5 and shall not create any ownership interest for The Bank.
+
+(e) **Resource Prioritization:** CICO shall prioritize customization and enhancement requests based on CICO's product roadmap, resource capacity, technical feasibility, and the needs of CICO's broader client base. The Bank acknowledges that customization requests are subject to CICO's development priorities and pipeline, and that CICO's ongoing projects, commitments to other clients, and platform development initiatives may impact the timing and deliverability of The Bank's requested customizations. CICO shall use commercially reasonable efforts to accommodate The Bank's requests but makes no guarantee of specific delivery timelines for customizations.
+
+**6.2 The Bank's Materials:** All Intellectual Property Rights in any materials, data, or content supplied by The Bank to CICO for the purposes of configuration or integration (for example, The Bank’s logos, branding elements, or proprietary business processes documented by The Bank) shall remain the property of The Bank. To the extent necessary for CICO to perform its obligations (such as incorporating The Bank’s logo into the System’s interface for co-branding purposes), The Bank grants CICO a non-exclusive, royalty-free license to use such materials for the term of this Agreement for the sole purpose of providing the System and services to The Bank.
 
 **6.3 No Third-Party Infringement:** CICO represents that, to the best of its knowledge, it has all necessary rights to license the System and Documentation to The Bank and that The Bank’s use of the System as permitted by this Agreement will not infringe upon any third party’s Intellectual Property Rights. In the event any third party asserts a claim that the System (in unmodified form as provided by CICO) infringes their patent, copyright, trademark or other IP rights, CICO shall defend The Bank against such claim and hold The Bank harmless from any damages or costs awarded by a court of final jurisdiction, provided that The Bank: **(i)** promptly notifies CICO in writing of the claim, **(ii)** allows CICO sole control of the defense and any settlement negotiations, and **(iii)** cooperates with CICO (at CICO’s expense) in the defense. This obligation of CICO (intellectual property indemnification) is a fundamental part of the IP Rights clause. If the System is found to infringe or if CICO believes it may infringe, CICO may, at its option, either obtain for The Bank the right to continue using the System, or modify/replace the infringing component to make it non-infringing without materially reducing functionality. If neither of those options is commercially feasible, CICO may terminate the License for the infringing part and refund to The Bank any prepaid fees covering the unused portion of the term for that part, whereupon The Bank will cease using that part. **This Section 6.3 states the entire liability of CICO and exclusive remedy of The Bank with respect to any intellectual property infringement claim.**
 
@@ -507,17 +551,15 @@ However, neither Party shall disclose any Confidential Information or specific n
 
 **14.4 Option to Terminate:** If any Force Majeure event persists for a continuous period of **three (3) months** or more such that it effectively frustrates the purpose of this Agreement or renders a material part of the Agreement unperformable, then either Party may terminate this Agreement by giving written notice to the other, without further liability (save for payment of any fees for services already rendered or System components already delivered up to the date of such termination). Upon such termination due to Force Majeure, any prepaid fees for services not rendered will be refunded to The Bank, and each Party will bear its own costs incurred due to the Force Majeure (unless otherwise agreed).
 
-**14.5 No Excuse for Financial Hardship:** For the avoidance of doubt, economic hardship, changes in market conditions, or insufficient business performance shall not constitute Force Majeure events. Each Party assumes the risk of its own financial and business conditions in entering this Agreement.
-
 ## **15\. Term and Termination**
 
 **15.1 Term of Agreement:** This Agreement shall commence on the Effective Date and, unless earlier terminated in accordance with its terms, shall remain in effect for an initial term of five (5) years from the Go Live Date (the “Initial Term”). Thereafter, the Agreement shall automatically renew for successive **one (1) year** terms (each a “Renewal Term”) unless either Party gives the other Party at least ninety (90) days’ written notice of non-renewal prior to the end of the then-current term. (If the Parties prefer a perpetual license with ongoing support, adjust this provision accordingly, or state that the license is perpetual but support is annual. Here, a fixed term is assumed for clarity.)
 
-**15.2 Termination for Cause:** Either Party may terminate this Agreement immediately upon written notice to the other Party if the other Party commits a material breach of this Agreement and (in the case of a breach capable of cure) fails to cure that breach within the applicable cure period specified in Section 13.2. Material breaches include (without limitation) those listed in Section 13.1 (Breach) above. If The Bank terminates for cause due to CICO’s uncured breach, The Bank shall be entitled to a pro-rata refund of any prepaid monthly fees covering the period after termination, and any obligation of The Bank to pay further fixed fees or revenue share shall cease as of the termination date (except that The Bank must pay any accrued but unpaid fees or revenue share up to that date). If CICO terminates for cause due to The Bank’s breach, The Bank shall immediately pay all outstanding fees due and any fixed fees that would have been payable through the end of the then-current term as a reasonable estimate of damages (or if the payment model has shifted to revenue share, an amount equal to 40% of the projected Chargeable Transaction revenue for the remainder of the term, as reasonably estimated based on prior performance).
+**15.2 Termination for Cause:** Either Party may terminate this Agreement immediately upon written notice to the other Party if the other Party commits a material breach of this Agreement and (in the case of a breach capable of cure) fails to cure that breach within the applicable cure period specified in Section 13.2. Material breaches include (without limitation) those listed in Section 13.1 (Breach) above. If The Bank terminates for cause due to CICO's uncured breach, any obligation of The Bank to pay revenue share shall cease as of the termination date (except that The Bank must pay any accrued but unpaid fees or revenue share up to that date). If CICO terminates for cause due to The Bank's breach, The Bank shall immediately pay all outstanding revenue share and marketing reimbursements due, plus an amount equal to CICO's projected revenue share for the following six (6) months based on the average monthly revenue share received in the prior six months, as a reasonable estimate of damages for lost revenue.
 
 **15.3 Mutual Termination (Convenience):** At any time after the System has been in live operation for at least **24 months** after go-live date, the Parties may mutually agree in writing to terminate this Agreement. If the Parties so agree, they shall negotiate in good faith any termination conditions, such as the effective date and any wind-down responsibilities. Either Party may propose a mutual termination if, for instance, business circumstances change or the partnership is no longer viable, but neither Party can force termination for convenience without the other’s consent (except as provided in Section 15.4 for early project termination).
 
-**15.4 Early Termination by The Bank (Pre-Go-Live):** In the event The Bank decides to terminate this Agreement **prior to the Go Live Date** (for reasons other than CICO’s breach or Force Majeure) or indefinitely suspend the implementation project for a period exceeding three (3) months, the following shall apply: The Bank shall pay to CICO, within thirty (30) days of such termination notice, an early termination fee equal to (i) all costs and fees for Implementation Services performed and expenses incurred by CICO up to the termination date (to the extent not already paid), **plus** (ii) a minimum commitment fee equal to one (1) month of the average applicable AMS Tier Fee (currently ETB 500,000 per month, totaling ETB 500,000), as a genuine pre-estimate of CICO’s investment and opportunity cost in allocating resources for the project. This early termination fee is agreed not as a penalty, but as a genuine pre-estimate of a portion of CICO’s investment and opportunity cost in allocating resources for the project. Upon such payment and termination, The Bank will have no further rights to use the System (and any installed copies shall be removed as per 15.6).
+**15.4 Early Termination by The Bank (Pre-Go-Live):** In the event The Bank decides to terminate this Agreement **prior to the Go Live Date** (for reasons other than CICO’s breach or Force Majeure) or indefinitely suspend the implementation project for a period exceeding three (3) months, the following shall apply: The Bank shall pay to CICO, within thirty (30) days of such termination notice, an early termination fee equal to (i) all costs and fees for Implementation Services performed and expenses incurred by CICO up to the termination date (to the extent not already paid), **plus** (ii) a minimum commitment fee of ETB 500,000, as a genuine pre-estimate of CICO’s investment and opportunity cost in allocating resources for the project. This early termination fee is agreed not as a penalty, but as a genuine pre-estimate of a portion of CICO’s investment and opportunity cost in allocating resources for the project. Upon such payment and termination, The Bank will have no further rights to use the System (and any installed copies shall be removed as per 15.6).
 
 **15.5 Effects of Termination:** Upon termination or expiration of this Agreement for any reason:
 
@@ -539,12 +581,56 @@ However, neither Party shall disclose any Confidential Information or specific n
   
   **Export Formats:** Data shall be provided in one or more of the following formats, as technically appropriate for each data type: CSV (Comma-Separated Values), JSON (JavaScript Object Notation), or XML (Extensible Markup Language). Database schema documentation shall be provided to facilitate data import into alternative systems. CICO shall deliver the complete data export within **thirty (30) calendar days** of The Bank's written request. The data export is intended to enable The Bank to migrate to an alternative system or maintain records for regulatory compliance.
 
-* **(e) System Deactivation:** CICO may take steps to remotely deactivate or secure the System to prevent further use by The Bank after termination, provided that CICO shall not interfere with The Bank’s ability to access its own data during any agreed transition period. The Bank expressly agrees to allow such deactivation actions and will not hinder CICO from ensuring the System is no longer used beyond the termination date, except as permitted under (d).
+* **(d-2) Post-Termination Channel Access for Migration:**
+
+  (i) **Transition Period:** Upon termination or non-renewal of this Agreement (other than termination by CICO for The Bank's material breach), The Bank may request a post-termination transition period of up to **six (6) months** (the "**Migration Period**") to facilitate orderly migration of its customers to an alternative system. The Bank must provide written notice of its intent to use the Migration Period at least sixty (60) days before the termination effective date.
+
+  (ii) **Limited Channel License:** During the Migration Period, CICO shall grant The Bank a limited, non-exclusive, non-transferable license to continue operating the existing customer-facing channels (mobile applications, web portal, USSD) solely for the purpose of:
+     - Maintaining service to existing customers during migration;
+     - Communicating migration instructions and notices to customers;
+     - Facilitating customer onboarding to the replacement system;
+     - Processing customer account closures and balance withdrawals;
+     - Completing in-progress transactions initiated before termination.
+
+  (iii) **Restrictions During Migration Period:** The Bank acknowledges and agrees that during the Migration Period:
+     - NO new customer registrations or account openings are permitted;
+     - NO deployment of new features, functionality, or system enhancements;
+     - NO use of CICO branding on new marketing materials or migration communications (The Bank must use neutral or Bank-only branding for migration notices);
+     - NO competitive use, reverse engineering, or sublicensing of the channels;
+     - System use is limited to the existing customer base as of the termination effective date;
+     - The Bank shall actively migrate customers to alternative systems and demonstrate month-over-month reduction in system usage and active users;
+     - CICO may monitor usage to ensure compliance with these restrictions.
+
+  (iv) **Migration Period Fees:** During the Migration Period, The Bank shall pay CICO the following fees:
+     - **Monthly Platform Access Fee:** Fifty percent (50%) of the final monthly AMS Fee applicable in the month immediately preceding termination (reflects reduced service level - no enhancements, limited support, migration-only usage);
+     - **Revenue Share:** Continues at the standard 50/10/40 split on Net Chargeable Transaction Fees for any remaining transactions processed during the Migration Period;
+     - **Pass-Through Costs:** Continue to apply for any third-party services utilized (SMS, USSD, switch fees, etc.).
+     
+     Payment terms: Monthly in advance, due within fifteen (15) days of invoice. Failure to pay migration fees when due shall be grounds for immediate termination of the Migration Period license.
+
+  (v) **Support During Migration:** During the Migration Period, CICO shall provide:
+     - Technical support for existing System functionality (Level 2 and Level 3 support only; The Bank shall handle Level 1 customer inquiries);
+     - System uptime maintenance on a best-efforts basis (no Service Level Agreement or uptime guarantees apply during Migration Period);
+     - Data export assistance and API access for migration tools (read-only access);
+     - Reasonable cooperation to facilitate customer data migration;
+     - NO new development, customizations, feature requests, or enhancements.
+
+  (vi) **Early Termination of Migration Period:** Either Party may terminate the Migration Period early with thirty (30) days' written notice if:
+     - The Bank completes customer migration to an alternative system before the end of the six-month period and no longer requires channel access;
+     - The Bank materially breaches the migration restrictions set forth in subsection (iii) above (including, without limitation, onboarding new customers, deploying new features, or using channels for competitive purposes);
+     - The Bank fails to pay migration fees when due and does not cure such payment default within ten (10) business days of written notice from CICO.
+
+  (vii) **Final Cutoff and Deactivation:** At the end of the Migration Period (whether by expiration of the six-month term or earlier termination pursuant to subsection (vi)), all channel access and System usage shall immediately and permanently cease. CICO may take all necessary steps to deactivate channels, including: removing mobile applications from app stores (Apple App Store, Google Play Store), forcing version updates that disable functionality, terminating web portal access, and disconnecting USSD and API integrations. The Bank expressly acknowledges this final cutoff and waives any claims for extended access beyond the Migration Period.
+
+  (viii) **No IP Transfer or Perpetual Rights:** This Migration Period does not grant The Bank any ownership rights, source code access, derivative rights, or perpetual licenses to CICO's channels, System, or intellectual property. All Intellectual Property Rights in the channels and System remain exclusively with CICO pursuant to Section 6. At the end of the Migration Period, CICO retains the unrestricted right to re-license, modify, rebrand, or deploy the channel software and System for other clients without any obligation or limitation.
+
+  (ix) **Migration Plan and Reporting:** Within fifteen (15) days of the Migration Period commencement, The Bank shall provide CICO with a written migration plan outlining: (a) the timeline for customer migration, (b) the replacement system or service provider being deployed, (c) customer communication strategy, and (d) monthly milestones for reducing active users. The Bank shall provide CICO with monthly progress reports during the Migration Period documenting the number of customers migrated, remaining active users, and expected completion date.
+
+* **(e) System Deactivation:** CICO may take steps to remotely deactivate or secure the System to prevent further use by The Bank after termination, provided that CICO shall not interfere with The Bank's ability to access its own data during any agreed transition period or Migration Period pursuant to subsections (d) and (d-2) above. The Bank expressly agrees to allow such deactivation actions and will not hinder CICO from ensuring the System is no longer used beyond the termination date, except as permitted under (d).
 
 * **(f) Survival:** Any provision of this Agreement that by its nature or context is intended to survive termination (including, but not limited to, provisions on Intellectual Property Rights, confidentiality, data protection to the extent applicable post-termination, limitation of liability, dispute resolution, and any accrued payment obligations) shall survive the expiration or termination of this Agreement.
 
 **15.6 No Release:** Termination or expiration of this Agreement for any reason shall not release either Party from any liability or obligation which, at the time of termination, has already accrued to the other Party or which is attributable to a period prior to termination, nor preclude either Party from pursuing any rights and remedies it may have under law (subject to the limitations in this Agreement) with respect to any breach of this Agreement.
-
 ## **16\. Change of Control or Legal Status**
 
 **16.1 Notification of Change:** The Bank shall promptly notify CICO in writing in the event of any impending or actual change in The Bank’s legal status or structure that would affect this Agreement. This includes, but is not limited to: any merger or consolidation involving The Bank, any acquisition of The Bank by a third party, a significant change in ownership or control of The Bank (for example, sale of a majority of its equity or transfer of controlling interest), a change of The Bank’s name or corporate form, or any transfer of the banking license or business operations to another entity.
@@ -762,34 +848,53 @@ While the System is hosted and managed by CICO, The Bank shall:
 
 * Monthly reconciliation by the **15th business day** of each month.
 
-# **Annex F – SaaS Tier Pricing (AMS Fees)**
+# **Annex F – Compensation Model (Revenue Share)**
 
 *Reference: CICO SaaS License Pricing Schedule (see Annex J for full pricing document)*
 
-**Tier Basis:** Total **Registered Users** at month-end (all wallet accounts created, regardless of activity status).
+## **NO MONTHLY FEES OR SUBSCRIPTION CHARGES**
 
-| Registered Users | Monthly Managed Fee (ETB) |
-| ----- | ----- |
-| 0 – 5,000 | 25,000 |
-| 5,001 – 10,000 | 35,000 |
-| 10,001 – 25,000 | 55,000 |
-| 25,001 – 50,000 | 70,000 |
-| 50,001 – 100,000 | 85,000 |
-| 100,001 – 250,000 | 150,000 |
-| 250,001 – 500,000 | 275,000 |
-| 500,001 – 1,000,000 | 450,000 |
-| 1,000,001 – 1,500,000 | 675,000 |
-| 1,500,001 – 2,000,000 | 900,000 |
-| \> 2,000,000 | **Custom** (not less than **ETB 0.90/user/month**) |
+This Agreement operates on a **pure revenue share model** with no monthly platform fees, subscription fees, or user-based charges. CICO's compensation is derived exclusively from transaction revenues and Bank-funded marketing.
 
-**Notes:**
-* AMS fees apply starting from the **Go-Live Date (Month 1)**. The 12-month software warranty period covers defect resolution only and does not waive monthly fees.
-* "Registered User" = any wallet account created in the System, regardless of activity status. Billing is based on total registered users at month-end (as defined in Section 1.1).
-* "Active Subscriber" = wallet that transacted or held positive balance during the billing month (for reporting/analytics only, not for billing).
-* Customizations and change requests billed at **ETB 5,000 per man-day** (or fixed price as agreed).
-* Rates subject to annual adjustment in line with Ethiopia's inflation index.
-* Additional license capacity above 1,000,000 registered users: one-time top-up **ETB 5.00 per additional user**.
-* This Pricing Sheet prevails over any conflicting prior fee language in the Agreement.
+## **Revenue Share Split**
+
+**Net Chargeable Transaction Fees** are split as follows:
+
+| Party | Percentage | Purpose |
+| ----- | ----- | ----- |
+| **CICO** | 50% | Platform operations, hosting, development, support, all managed services |
+| **Operators/Agents** | 10% | Operator incentives for cash-in/cash-out services |
+| **The Bank** | 40% | Bank's share of transaction revenues |
+
+**Computation:** Net = Gross Transaction Fees – Pass-Through Costs → apply 50/10/40 split on Net.
+
+## **CICO's Operational Funding**
+
+CICO funds all of the following from its 50% revenue share allocation:
+* Hosting infrastructure and data center operations
+* Server maintenance, security, backups, disaster recovery
+* Software development, enhancements, customizations
+* Technical support (L1/L2/L3)
+* Customer operations and onboarding
+* Operator/agent management and training
+* Marketing operations (technical execution)
+* Personnel costs and overhead
+
+**The Bank has no obligation to fund these operational costs.**
+
+## **Bank-Funded Marketing**
+
+Marketing campaigns (media buying, advertising, promotional costs) are funded separately by The Bank through a monthly proposal approval process per Section 3.3. Marketing funds are NOT deducted from revenue share.
+
+## **Key Notes**
+
+* Revenue share applies from **Go-Live Date** and continues throughout the Agreement term
+* Real-time allocation or monthly settlement per Section 3.1(d)
+* Pass-Through Costs (SMS, switch fees, etc.) are deducted before revenue split per Annex I
+* No caps, minimums, or guaranteed revenues for CICO
+* CICO operates at its own commercial risk
+* Standard customizations included in CICO's services (funded from revenue share)
+* System license capacity: Up to 1,000,000 users initially; additional capacity subject to agreement
 
 # **Annex G – Business Continuity and Disaster Recovery Parameters**
 
@@ -947,45 +1052,51 @@ CICO shall provide The Bank with a detailed monthly reconciliation statement by 
 
 The CICO SaaS License Pricing Schedule is hereby incorporated by reference into this Agreement and forms an integral part of the commercial terms. The pricing schedule provides comprehensive details on:
 
-* **One-Time Fees:** System setup and additional license capacity
-* **Monthly Managed Fee Tiers:** Detailed subscriber-based pricing (replicated in Annex F)
+* **Compensation Model:** Pure revenue share (NO monthly fees or subscription charges)
 * **Revenue Share Model:** 50/10/40 split on Net Chargeable Transaction Fees
-* **Services Included:** Full scope of managed services covered by AMS Fees
+* **Services Included:** Full scope of managed services funded from CICO's revenue share
+* **Marketing Funding:** Bank-funded marketing through monthly proposal process
 * **Pass-Through Costs:** Detailed list of eligible third-party costs (replicated in Annex I)
-* **Payment Terms:** Invoicing and settlement procedures
-* **Custom Development:** Time & materials rates for change requests
+* **Payment Terms:** Real-time or monthly settlement procedures
+* **Custom Development:** Included in CICO's services (funded from revenue share)
 
 ## **Key Provisions from Pricing Schedule**
 
 ### **1) Managed Model Scope**
 
-**CICO provides:** Fully hosted & managed Digital Wallet & Operator Management Platform, plus day-to-day customer support, marketing operations, and user/operator onboarding.
+**CICO provides:** Fully hosted & managed CICO CASH Digital Wallet & Operator Management Platform, plus day-to-day customer support, marketing operations (technical execution), and user/operator onboarding. **All funded from CICO's 50% revenue share.**
 
-**Bank retains:** Regulatory compliance & licensing, AML/CFT decisions, product/fee approvals, brand/policy oversight, and L3 complaint adjudication.
+**Bank retains:** Regulatory compliance & licensing, AML/CFT decisions, product/fee approvals, brand/policy oversight, L3 complaint adjudication, and **marketing budget funding** (via monthly proposal approval).
 
 ### **2) One-Time Fees**
 
-* **System Setup & SaaS License:** ETB 0.00 (includes implementation, tenant provisioning, capacity up to 1,000,000 registered users)
-* **Additional License Capacity:** Above 1,000,000 registered users, one-time top-up ETB 5.00 per additional user
-* **License Warranty:** First 12 months from Go-Live covers software defects and bugs. This warranty covers defect resolution only, not operational services.
+* **System Setup & Implementation:** ETB 0.00 (includes implementation, tenant provisioning, capacity up to 1,000,000 registered users)
+* **Additional License Capacity:** Above 1,000,000 registered users subject to mutual agreement
+* **Software Warranty:** First 12 months from Go-Live covers software defects and bugs at no additional charge
 
-### **3) Monthly Managed Fee**
+### **3) NO Monthly Platform Fees**
 
-See Annex F for complete tiered pricing table (0-5K through >2M registered users).
+**There are no monthly subscription fees, platform access fees, or user-based charges.**
 
-**Payment Start:** Monthly Managed Fee is payable starting from **Go-Live Date (Month 1)**.
+CICO's sole compensation is derived from:
+1. **50% Revenue Share** on Net Chargeable Transaction Fees (real-time or monthly settlement)
+2. **Reimbursement for Bank-approved marketing** campaigns per Section 3.3
 
-**Tier basis:** Total Registered Users at month-end (all wallet accounts created, regardless of activity status).
+CICO funds all platform operations, hosting, development, and support from its revenue share allocation.
 
-### **4) Services Included in Managed Fee**
+### **4) Services Funded by CICO's Revenue Share**
 
-* **Hosting & Security:** 24/7 monitoring, backups/DR, patching
-* **Application Maintenance:** Bug fixes, patches, enhancements, upgrades
-* **Support Operations:** L1/L2/L3 helpdesk, incident management, RCA
-* **Customer Ops:** Onboarding/KYC workflow, education
-* **Operator/Agent Ops:** Onboarding, training, field playbooks, performance nudges
-* **Marketing Ops:** Campaign setup/execution, CRM segments, in-app promos, field activations (*media spend is pass-through*). Marketing campaign categories (GTM, Operational, Always-On) and approval processes detailed in Sections 3.2.1 and 3.2.2. Operational campaigns under 30% of monthly managed fee may proceed with notification only.
-* **Reporting & Governance:** KPI dashboards, monthly reviews, quarterly roadmap, **quarterly marketing plans** (campaigns, budgets, calendar for Bank approval with 10-day review period and deemed approval), monthly marketing performance reports
+CICO funds all of the following services from its 50% revenue share allocation:
+
+* **Hosting & Security:** 24/7 monitoring, backups/DR, patching, infrastructure management
+* **Application Maintenance:** Bug fixes, patches, enhancements, upgrades, customizations
+* **Support Operations:** L1/L2/L3 helpdesk, incident management, RCA, technical troubleshooting
+* **Customer Ops:** Onboarding/KYC workflow execution, digital customer registration, education
+* **Operator/Agent Ops:** Onboarding, training, field playbooks, performance management
+* **Marketing Ops:** Campaign setup/execution (technical implementation), CRM segments, in-app promos, field activation coordination
+  - **Marketing media spend and advertising costs are funded by The Bank** via monthly proposals per Section 3.3
+  - CICO submits proposals by 5th business day; Bank approves within 7 days; payment within 10 days
+* **Reporting & Governance:** KPI dashboards, monthly operational reviews, quarterly roadmap updates, monthly marketing performance reports (ROI, CAC, engagement metrics)
 
 ### **5) Revenue Share & Pass-Through**
 
@@ -1000,15 +1111,18 @@ See Annex F for complete tiered pricing table (0-5K through >2M registered users
 
 ### **6) Changes & Custom Work**
 
-* Minor configuration included
-* Custom development/integrations: ETB 5,000 per man-day (or fixed price via Change Request)
-* New third-party integrations: Priced via CR
+* Minor configuration included in CICO's services (funded from revenue share)
+* Standard customizations and enhancements included in CICO's services (subject to resource capacity and prioritization per Section 6.1(e))
+* Material custom development requiring significant resources beyond standard service delivery may require separate agreement
+* New third-party integrations requiring vendor procurement and licensing: Costs evaluated via Change Request
+* All customizations remain CICO's exclusive intellectual property per Section 6.1
 
 ### **7) Payment & Settlement**
 
-* **Managed Fee:** Invoiced monthly in advance; due Net 30 days
-* **Revenue Share:** Real-time allocation or monthly in arrears with statement by 15th business day
-* **Pass-Through:** Itemized monthly with vendor references; deducted before revenue split
+* **NO Monthly Platform Fees:** There are no monthly subscription fees, platform fees, or user-based charges
+* **Revenue Share:** Real-time allocation or monthly settlement with statement by 15th business day of each month
+* **Marketing Funding:** Bank pays approved marketing campaigns within 10 business days of approval per Section 3.3
+* **Pass-Through:** Itemized monthly with vendor references; deducted before revenue split calculation
 * **Currency:** ETB to CICO's designated account
 
 ## **Precedence**
@@ -1041,7 +1155,8 @@ Upon receipt of a Change Request, CICO shall perform an impact assessment and pr
 
 * **Feasibility Analysis:** Whether the change is technically feasible within the System architecture
 * **Effort Estimate:** Estimated development effort in man-days
-* **Cost Estimate:** Total cost (man-days × ETB 5,000 per day, or fixed price if applicable)
+* **Resource Assessment:** Whether the customization is included in standard AMS service or requires separate agreement
+* **Priority and Timeline:** Proposed delivery schedule based on CICO's product roadmap and resource availability
 * **Timeline:** Proposed delivery schedule, including dependencies
 * **Impact Analysis:** Potential impact on existing functionality, performance, or other modules
 * **Risks & Mitigations:** Any technical or operational risks and proposed mitigations
@@ -1084,11 +1199,11 @@ Upon approval:
 * Production deployment shall follow the change management procedures defined in Section 4(j)
 * Any issues discovered within **30 days** of production deployment shall be fixed by CICO at no charge (warranty period for the custom work)
 
-## **7) Payment Terms for Change Requests**
+## **7) Delivery Terms for Change Requests**
 
-* **Time & Materials:** Invoiced upon completion at ETB 5,000 per man-day (actual days worked)
-* **Fixed Price:** 50% upfront upon approval, 50% upon UAT acceptance
-* Payments due within Net 30 days of invoice date
+* **Standard Customizations:** Included in monthly AMS Fees, delivered based on CICO's development priorities and resource capacity
+* **Material Custom Development:** If change requires resources beyond standard service scope, parties shall negotiate separate terms
+* **Third-Party Costs:** Any third-party licensing or integration costs shall be pass-through to The Bank
 
 ## **8) Change Request Priority Levels**
 
@@ -1139,10 +1254,12 @@ ADDITIONAL INFORMATION:
 FOR CICO USE ONLY:
 Feasibility: [Feasible / Not Feasible]
 Effort Estimate: [X man-days]
-Cost Estimate: [ETB amount]
+Resource Assessment: [Included in AMS / Requires separate agreement]
+Priority Level: [Critical / High / Medium / Low]
 Proposed Timeline: [Start date - End date]
 Impact Analysis: [Summary]
 Risks: [List of risks]
+Dependencies: [Other projects/commitments that may impact delivery]
 
 This Change Request process ensures clear communication, proper scoping, and mutual agreement before any custom development work begins.
 

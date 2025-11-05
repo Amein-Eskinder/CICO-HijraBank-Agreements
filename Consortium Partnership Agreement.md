@@ -126,7 +126,40 @@ In this Agreement, unless the context otherwise requires:
    
 5.1.1. A Steering Committee shall be formed with equal representation from both Parties.  
 
-5.1.2. The Bank's representative in the Steering Committee shall have the authority to make final decisions on matters that are strictly and directly related to the Bank's regulatory license requirements under National Bank of Ethiopia regulations, capital adequacy requirements, or Anti-Money Laundering/Combating the Financing of Terrorism (AML/CFT) obligations, provided that such decisions are made in writing and with justifiable reasons citing the specific regulatory requirement. For clarity, regulatory compliance shall not be invoked to override CICO's operational decisions on technical implementation, vendor selection, pricing, platform deployment, or project execution matters. Similarly, CICO's representative in the Steering Committee shall have the authority to make final decisions on matters that are strictly related to project operations, technical implementation, platform deployment, vendor selection, staffing decisions, and day-to-day execution, provided that such decisions are made in writing and with justifiable reasons.   
+5.1.2. **Regulatory Authority and Operational Decisions:**
+
+(a) **Bank's Regulatory Authority:** The Bank's representative in the Steering Committee shall have unilateral and final decision-making authority on any matter where the Bank reasonably determines, in good faith, that action is necessary to ensure compliance with:
+   - National Bank of Ethiopia regulations, directives, or supervisory guidance;
+   - Banking license requirements or conditions;
+   - Capital adequacy, liquidity, or prudential requirements;
+   - Anti-Money Laundering/Combating the Financing of Terrorism (AML/CFT) obligations;
+   - Consumer protection regulations applicable to financial institutions;
+   - Any other regulatory requirement that could impact the Bank's license, regulatory standing, or result in sanctions, penalties, or reputational harm to the Bank.
+
+This regulatory authority is absolute and may be exercised even if it impacts CICO's operational decisions, project timelines, vendor selection, pricing, or technical implementation.
+
+(b) **Documentation of Regulatory Nexus:** When exercising regulatory authority under Section 5.1.2(a), the Bank shall provide written notice to CICO that:
+   - Identifies the specific regulatory requirement, directive, or risk that necessitates the decision;
+   - Explains, in reasonable detail, how the matter at issue creates regulatory exposure for the Bank;
+   - Describes the decision or action required to address the regulatory concern;
+   - Includes reference to applicable laws, regulations, NBE directives, or regulatory guidance where available.
+
+(c) **CICO's Operational Authority:** For matters that do not involve regulatory compliance as documented under Section 5.1.2(b), CICO's representative shall have final decision-making authority on:
+   - Technical implementation approaches, methodologies, and architecture;
+   - Vendor selection, procurement, and third-party service providers (subject to Bank's regulatory vetting rights);
+   - Platform deployment schedules, testing protocols, and go-live decisions;
+   - Project staffing, resource allocation, and team management;
+   - Pricing strategies for consortium services and deliverables;
+   - Day-to-day project execution and operational matters.
+
+CICO's operational decisions shall be made in writing with justifiable business or technical reasons.
+
+(d) **Good Faith and Regulatory Integrity:** Both Parties acknowledge that:
+   - The Bank's regulatory authority under Section 5.1.2(a) exists to protect the Bank's license and regulatory standing, and shall be exercised in good faith only when genuine regulatory concerns exist;
+   - CICO's operational authority under Section 5.1.2(c) exists to enable effective project management and technical execution, and shall be exercised in good faith to deliver quality outcomes;
+   - Neither Party shall abuse its respective authority to obstruct the other Party's legitimate functions or to circumvent the governance framework of this Agreement.
+
+(e) **Escalation for Disputed Regulatory Determinations:** If CICO believes, in good faith, that the Bank has invoked regulatory authority for a matter that does not genuinely present regulatory risk (i.e., as a pretext to interfere with operational decisions), CICO may escalate the matter to the CEOs per Section 5.1.3. However, this escalation right does not suspend or override the Bank's decision during the escalation period if the Bank determines that immediate action is necessary to prevent imminent regulatory harm. The escalation serves to: (i) create a record of the dispute, and (ii) allow the CEOs to establish clearer boundaries for future application of regulatory authority.   
 5.1.3. All material decisions concerning the consortium and individual projects shall be made by the Steering Committee. The Steering Committee shall strive to make decisions by consensus. If consensus cannot be reached after good faith discussions, the matter shall be referred to the Chief Executive Officer / Vice President of CICO and the Chief Executive Officer / Vice President of Hijra Bank for resolution. If both CEOs cannot reach consensus within fifteen (15) business days, the matter shall either (i) be resolved through the dispute resolution mechanism in Section 11, or (ii) the specific project or decision in question shall not proceed without mutual written agreement.   
 5.1.4. Functions of the committee: Approve proposals, budgets, project plans, and major decisions.   
    
@@ -138,7 +171,7 @@ In this Agreement, unless the context otherwise requires:
 
 5.2.3. The Bank shall participate in all discussions and decisions. For matters related to the Bank's regulatory compliance and financial standing as specified in Section 5.1.2, the final decision authority rests with the Bank's Chief Executive Officer / Vice President based on the mandates provided to them.
 
-5.2.4. Similarly, CICO shall participate in all discussions and decisions. For matters related to project operations, technical implementation, platform deployment, vendor selection, staffing decisions, and day-to-day execution as the lead implementer, the final decision authority rests with CICO's Chief Executive Officer / Vice President, provided that such decisions are made in writing and with justifiable reasons. This authority ensures CICO can effectively manage operations, maintain implementation quality, and fulfill its responsibilities as consortium manager.
+5.2.4. Similarly, CICO shall participate in all discussions and decisions. For matters related to project operations, technical implementation, platform deployment, vendor selection, staffing decisions, and day-to-day execution as the lead implementer (as specified in Section 5.1.2(c)), the final decision authority rests with CICO's Chief Executive Officer / Vice President, provided that such decisions are made in writing and with justifiable business or technical reasons. This authority ensures CICO can effectively manage operations, maintain implementation quality, and fulfill its responsibilities as consortium manager. This operational authority is subject to the Bank's overriding regulatory authority as set forth in Section 5.1.2(a) when genuine regulatory concerns exist.
 
 ### **6\. Project Lifecycle and Deliverables**
 
@@ -231,7 +264,35 @@ Upon completion or termination of any consortium project:
 
 7.6.3. Neither Party shall reverse-engineer, decompile, disassemble, or attempt to derive the source code or underlying methodology of the other Party's Background IP.
 
-7.6.4. **Non-Compete and IP Protection:** During the term of this Agreement and for a period of three (3) years following termination, Hijra Bank shall not: (a) develop, deploy, or commercialize digital wallet platforms, financial technology systems, or operator management platforms that replicate or substantially compete with CICO's Soukify platform or other Background IP; (b) engage third-party vendors to build competing systems using knowledge, methodologies, or technical specifications learned through this consortium; (c) hire or solicit for employment any of CICO's key technical personnel who worked on consortium projects; or (d) use knowledge gained from CICO's Background IP to independently develop or commission competing solutions. This restriction shall not prevent the Bank from using commercially available off-the-shelf software or engaging CICO's competitors for unrelated services.
+7.6.4. **IP Protection and Limited Non-Compete:**
+
+(a) **General Business Freedom:** Hijra Bank retains the unrestricted right to develop, deploy, acquire, license, or commercialize digital wallet platforms, financial technology systems, operator management platforms, or any other technology solutions for its banking operations, whether through internal development, third-party vendors, off-the-shelf software, or engagement of CICO's competitors. This Agreement does not restrict the Bank's ability to compete in the financial technology space or to select technology providers of its choice.
+
+(b) **Protection of CICO's Confidential Information and Proprietary Systems:** Notwithstanding Section 7.6.4(a), during the term of this Agreement and for a period of three (3) years following termination, Hijra Bank shall not:
+
+   (i) Develop, deploy, or commission systems that are demonstrably based on, derived from, or incorporate CICO's Confidential Information, proprietary code, technical specifications, architectural designs, algorithms, or methodologies that were disclosed to the Bank through this consortium and are not publicly available or independently developed;
+   
+   (ii) Engage third-party vendors to replicate CICO's proprietary systems (including Soukify, CICO CASH, or other CICO platforms) by providing such vendors with CICO's Confidential Information, technical documentation, source code, system architectures, or proprietary specifications learned through this consortium;
+   
+   (iii) Reverse-engineer, decompile, or disassemble CICO's Background IP to create competing solutions, or use knowledge of CICO's proprietary source code, algorithms, or system internals gained through this consortium to independently develop substantially similar systems;
+   
+   (iv) Hire or actively solicit for employment any of CICO's key technical personnel (defined as employees at manager level or above who directly worked on consortium projects) within twelve (12) months of such personnel's departure from CICO, provided that this restriction shall not apply to: (A) general job postings or recruitment campaigns not specifically targeted at CICO personnel, (B) personnel who approach the Bank unsolicited, or (C) personnel who have been separated from CICO for more than six (6) months.
+
+(c) **Burden of Proof:** If CICO alleges that the Bank has violated Section 7.6.4(b), CICO bears the burden of demonstrating that the Bank's system is based on or incorporates CICO's Confidential Information or proprietary materials. General similarity in functionality, features, or user experience shall not, by itself, constitute a violation. CICO must show specific evidence of misappropriation, such as substantial similarity in proprietary code, algorithms, technical architecture, or use of CICO's confidential technical specifications.
+
+(d) **Permitted Activities:** For clarity, the following activities by Hijra Bank are expressly permitted and do not violate this Section 7.6.4:
+   
+   (i) Developing or acquiring systems using publicly available technologies, open-source software, industry-standard practices, or general knowledge and skills;
+   
+   (ii) Implementing features, functionalities, or user experiences that are common in the financial technology industry, even if similar to CICO's platforms;
+   
+   (iii) Engaging vendors (including CICO's competitors) to provide digital wallet, payment, or financial technology solutions based on the vendor's own proprietary systems;
+   
+   (iv) Using knowledge, skills, and general experience gained by the Bank's own employees through their work on consortium projects, provided such employees do not disclose or use CICO's specific Confidential Information or proprietary code;
+   
+   (v) Continuing to use and develop the Bank's own HalalPay platform or other pre-existing Background IP owned by the Bank.
+
+(e) **Equitable Relief:** The Parties acknowledge that a breach of Section 7.6.4(b) involving misappropriation of CICO's Confidential Information or proprietary code may cause irreparable harm to CICO. In such event, CICO shall be entitled to seek injunctive relief in addition to any other available remedies.
 
 **7.7. Use of Pre-Existing IP for Consortium Projects**
 
